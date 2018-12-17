@@ -1,0 +1,92 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 6,
+      "passed" : 6,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "81f63708940aef0e",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 6,
+        "passed" : 6,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "613fa5e61e4fc8cc",
+        "name" : "adminCanAddNewUser",
+        "title" : "Admin can add new user",
+        "time" : {
+          "start" : 1545033697725,
+          "stop" : 1545033722445,
+          "duration" : 24720
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "78b3ce3e4b4dda53",
+        "name" : "adminCanEditUserData",
+        "title" : "Admin can edit user data",
+        "time" : {
+          "start" : 1545033722466,
+          "stop" : 1545033736683,
+          "duration" : 14217
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a62e66077c151d06",
+        "name" : "adminCanUpgradeUser",
+        "title" : "Admin can upgrade user",
+        "time" : {
+          "start" : 1545033736688,
+          "stop" : 1545033746672,
+          "duration" : 9984
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8a81c169a640d848",
+        "name" : "errorAboutExistingEmail",
+        "title" : "Error about existing email",
+        "time" : {
+          "start" : 1545033746680,
+          "stop" : 1545033756068,
+          "duration" : 9388
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "aefd834de005fc8f",
+        "name" : "emptyFieldsErrorDisplaying",
+        "title" : "Empty fields error displaying",
+        "time" : {
+          "start" : 1545033756075,
+          "stop" : 1545033760945,
+          "duration" : 4870
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4cadd9498b3710a8",
+        "name" : "adminCanArchivateUser",
+        "title" : "Admin can archivate user",
+        "time" : {
+          "start" : 1545033760947,
+          "stop" : 1545033772344,
+          "duration" : 11397
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

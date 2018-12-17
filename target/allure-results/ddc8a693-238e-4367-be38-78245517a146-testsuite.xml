@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1545033120658" stop="1545033186163" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : java_ptf</name>
+    <title>Default Suite : java_ptf</title>
+    <test-cases>
+        <test-case start="1545033120991" stop="1545033140742" status="passed">
+            <name>adminCanAddNewUser</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="java_ptf"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="adminCanAddNewUser"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="6583@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545033140762" stop="1545033152153" status="passed">
+            <name>adminCanEditUserData</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="java_ptf"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="adminCanEditUserData"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="6583@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545033152158" stop="1545033161582" status="passed">
+            <name>adminCanUpgradeUser</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="java_ptf"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="adminCanUpgradeUser"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="6583@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545033161585" stop="1545033170301" status="passed">
+            <name>errorAboutExistingEmail</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="java_ptf"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="errorAboutExistingEmail"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="6583@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545033170306" stop="1545033174719" status="passed">
+            <name>emptyFieldsErrorDisplaying</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="java_ptf"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="emptyFieldsErrorDisplaying"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="6583@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545033174722" stop="1545033186161" status="passed">
+            <name>adminCanArchivateUser</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="java_ptf"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="adminCanArchivateUser"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="6583@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
