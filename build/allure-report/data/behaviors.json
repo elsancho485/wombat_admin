@@ -3,89 +3,89 @@
     "title" : "Without feature",
     "statistic" : {
       "total" : 6,
-      "passed" : 0,
+      "passed" : 6,
       "pending" : 0,
       "canceled" : 0,
-      "failed" : 6,
+      "failed" : 0,
       "broken" : 0
     },
     "stories" : [ {
-      "uid" : "7741ec02c7a47bc8",
+      "uid" : "11a4df40ff028a3c",
       "title" : "Without story",
       "statistic" : {
         "total" : 6,
-        "passed" : 0,
+        "passed" : 6,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 6,
+        "failed" : 0,
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "f898a58de3deee78",
+        "uid" : "19022811d7ab44eb",
         "name" : "adminCanAddNewUser",
         "title" : "Admin can add new user",
         "time" : {
-          "start" : 1545114580381,
-          "stop" : 1545114597995,
-          "duration" : 17614
+          "start" : 1545125741599,
+          "stop" : 1545125763665,
+          "duration" : 22066
         },
         "severity" : "NORMAL",
-        "status" : "FAILED"
+        "status" : "PASSED"
       }, {
-        "uid" : "dc50981a82302693",
+        "uid" : "4c157ae9f636bd4f",
         "name" : "adminCanEditUserData",
         "title" : "Admin can edit user data",
         "time" : {
-          "start" : 1545114598005,
-          "stop" : 1545114603053,
-          "duration" : 5048
+          "start" : 1545125763683,
+          "stop" : 1545125782056,
+          "duration" : 18373
         },
         "severity" : "NORMAL",
-        "status" : "FAILED"
+        "status" : "PASSED"
       }, {
-        "uid" : "b7f19301a8e3052d",
+        "uid" : "d87342d6017a5e93",
         "name" : "adminCanUpgradeUser",
         "title" : "Admin can upgrade user",
         "time" : {
-          "start" : 1545114603057,
-          "stop" : 1545114607796,
-          "duration" : 4739
+          "start" : 1545125782060,
+          "stop" : 1545125792089,
+          "duration" : 10029
         },
         "severity" : "NORMAL",
-        "status" : "FAILED"
+        "status" : "PASSED"
       }, {
-        "uid" : "db1408633fd4a110",
+        "uid" : "95b3c7ceb11121e6",
         "name" : "errorAboutExistingEmail",
         "title" : "Error about existing email",
         "time" : {
-          "start" : 1545114607798,
-          "stop" : 1545114612530,
-          "duration" : 4732
+          "start" : 1545125792093,
+          "stop" : 1545125800610,
+          "duration" : 8517
         },
         "severity" : "NORMAL",
-        "status" : "FAILED"
+        "status" : "PASSED"
       }, {
-        "uid" : "cbb935b00a5bdc7b",
+        "uid" : "a8b3e51d12ad5d2f",
         "name" : "emptyFieldsErrorDisplaying",
         "title" : "Empty fields error displaying",
         "time" : {
-          "start" : 1545114612571,
-          "stop" : 1545114616752,
-          "duration" : 4181
+          "start" : 1545125800616,
+          "stop" : 1545125805447,
+          "duration" : 4831
         },
         "severity" : "NORMAL",
-        "status" : "FAILED"
+        "status" : "PASSED"
       }, {
-        "uid" : "98fce8174322041e",
+        "uid" : "3f4e03c73b977126",
         "name" : "adminCanArchivateUser",
         "title" : "Admin can archivate user",
         "time" : {
-          "start" : 1545114616754,
-          "stop" : 1545114619995,
-          "duration" : 3241
+          "start" : 1545125805450,
+          "stop" : 1545125817345,
+          "duration" : 11895
         },
         "severity" : "NORMAL",
-        "status" : "FAILED"
+        "status" : "PASSED"
       } ]
     } ]
   } ]

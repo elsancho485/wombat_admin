@@ -43,7 +43,7 @@ public class TestBase extends UserData {
         }
 
     public void goToAddUserForm() { //Переход к форме создания сотрудника
-        $(By.className("button__src-shared-AddButton-__3G-")).click();
+        $(By.cssSelector("div[class^='button__src-shared-AddButton-__3G-']")).click();
     }
 
     public void goToEditUserData() { //Переход к форме редактирования сотрудника
