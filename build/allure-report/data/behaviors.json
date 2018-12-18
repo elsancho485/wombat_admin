@@ -10,7 +10,7 @@
       "broken" : 0
     },
     "stories" : [ {
-      "uid" : "11a4df40ff028a3c",
+      "uid" : "8401c263016830aa",
       "title" : "Without story",
       "statistic" : {
         "total" : 6,
@@ -21,68 +21,68 @@
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "19022811d7ab44eb",
+        "uid" : "8013a54c7346c988",
         "name" : "adminCanAddNewUser",
         "title" : "Admin can add new user",
         "time" : {
-          "start" : 1545125741599,
-          "stop" : 1545125763665,
-          "duration" : 22066
+          "start" : 1545131718942,
+          "stop" : 1545131738766,
+          "duration" : 19824
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "4c157ae9f636bd4f",
+        "uid" : "f2c8b84000545d2f",
         "name" : "adminCanEditUserData",
         "title" : "Admin can edit user data",
         "time" : {
-          "start" : 1545125763683,
-          "stop" : 1545125782056,
-          "duration" : 18373
+          "start" : 1545131738781,
+          "stop" : 1545131755662,
+          "duration" : 16881
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "d87342d6017a5e93",
+        "uid" : "485b41b8875f29c3",
         "name" : "adminCanUpgradeUser",
         "title" : "Admin can upgrade user",
         "time" : {
-          "start" : 1545125782060,
-          "stop" : 1545125792089,
-          "duration" : 10029
+          "start" : 1545131755669,
+          "stop" : 1545131764418,
+          "duration" : 8749
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "95b3c7ceb11121e6",
+        "uid" : "f003a68f8af25041",
         "name" : "errorAboutExistingEmail",
         "title" : "Error about existing email",
         "time" : {
-          "start" : 1545125792093,
-          "stop" : 1545125800610,
-          "duration" : 8517
+          "start" : 1545131764421,
+          "stop" : 1545131771939,
+          "duration" : 7518
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "a8b3e51d12ad5d2f",
+        "uid" : "c64bb5d2961f52e",
         "name" : "emptyFieldsErrorDisplaying",
         "title" : "Empty fields error displaying",
         "time" : {
-          "start" : 1545125800616,
-          "stop" : 1545125805447,
-          "duration" : 4831
+          "start" : 1545131771944,
+          "stop" : 1545131776552,
+          "duration" : 4608
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "3f4e03c73b977126",
+        "uid" : "9fadb391fd8f206b",
         "name" : "adminCanArchivateUser",
         "title" : "Admin can archivate user",
         "time" : {
-          "start" : 1545125805450,
-          "stop" : 1545125817345,
-          "duration" : 11895
+          "start" : 1545131776556,
+          "stop" : 1545131787166,
+          "duration" : 10610
         },
         "severity" : "NORMAL",
         "status" : "PASSED"

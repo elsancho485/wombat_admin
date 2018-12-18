@@ -1,9 +1,12 @@
 package ru.wombat.admin.tests.Tests;
 
 import org.testng.annotations.Test;
+import ru.yandex.qatools.allure.annotations.Severity;
+import ru.yandex.qatools.allure.model.SeverityLevel;
 
 public class AddUserTest extends TestBase {
 
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 1)
     public void adminCanAddNewUser() {
         goToAddUserForm();

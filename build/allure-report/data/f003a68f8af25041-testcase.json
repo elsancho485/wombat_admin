@@ -1,11 +1,11 @@
 {
-  "uid" : "4c157ae9f636bd4f",
-  "name" : "adminCanEditUserData",
-  "title" : "Admin can edit user data",
+  "uid" : "f003a68f8af25041",
+  "name" : "errorAboutExistingEmail",
+  "title" : "Error about existing email",
   "time" : {
-    "start" : 1545125763683,
-    "stop" : 1545125782056,
-    "duration" : 18373
+    "start" : 1545131764421,
+    "stop" : 1545131771939,
+    "duration" : 7518
   },
   "summary" : {
     "attachments" : 0,
@@ -17,7 +17,7 @@
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "129ea8047c3c7c2",
+    "uid" : "d157c47a0029cc1f",
     "name" : "Gradle suite : Gradle test",
     "title" : "Gradle suite : Gradle test"
   },
@@ -28,17 +28,20 @@
     "name" : "suite-name",
     "value" : "Gradle suite : Gradle test"
   }, {
-    "name" : "testMethod",
-    "value" : "adminCanEditUserData"
-  }, {
     "name" : "language",
     "value" : "JAVA"
   }, {
     "name" : "testClass",
     "value" : "ru.wombat.admin.tests.Tests.AddUserTest"
   }, {
+    "name" : "testMethod",
+    "value" : "errorAboutExistingEmail"
+  }, {
     "name" : "host",
     "value" : "MacBook-Aleksandr.local"
+  }, {
+    "name" : "thread",
+    "value" : "13914@MacBook-Aleksandr.local.Test worker(10)"
   }, {
     "name" : "framework",
     "value" : "TestNG"
@@ -48,9 +51,6 @@
   }, {
     "name" : "testSuite",
     "value" : "Gradle suite"
-  }, {
-    "name" : "thread",
-    "value" : "13501@MacBook-Aleksandr.local.Test worker(10)"
   }, {
     "name" : "suite-title",
     "value" : "Gradle suite : Gradle test"

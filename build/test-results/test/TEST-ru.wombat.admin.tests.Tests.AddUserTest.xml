@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.wombat.admin.tests.Tests.AddUserTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-12-18T09:35:41" hostname="MacBook-Aleksandr.local" time="76.11">
+<testsuite name="ru.wombat.admin.tests.Tests.AddUserTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-12-18T11:15:18" hostname="MacBook-Aleksandr.local" time="68.715">
   <properties/>
-  <testcase name="adminCanAddNewUser" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="22.417"/>
-  <testcase name="adminCanEditUserData" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="18.377"/>
-  <testcase name="adminCanUpgradeUser" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="10.032"/>
-  <testcase name="errorAboutExistingEmail" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="8.52"/>
-  <testcase name="emptyFieldsErrorDisplaying" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="4.834"/>
-  <testcase name="adminCanArchivateUser" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="11.895"/>
+  <testcase name="adminCanAddNewUser" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="20.31"/>
+  <testcase name="adminCanEditUserData" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="16.886"/>
+  <testcase name="adminCanUpgradeUser" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="8.754"/>
+  <testcase name="errorAboutExistingEmail" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="7.52"/>
+  <testcase name="emptyFieldsErrorDisplaying" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="4.611"/>
+  <testcase name="adminCanArchivateUser" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="10.611"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

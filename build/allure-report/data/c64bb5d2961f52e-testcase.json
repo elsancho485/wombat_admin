@@ -1,11 +1,11 @@
 {
-  "uid" : "d87342d6017a5e93",
-  "name" : "adminCanUpgradeUser",
-  "title" : "Admin can upgrade user",
+  "uid" : "c64bb5d2961f52e",
+  "name" : "emptyFieldsErrorDisplaying",
+  "title" : "Empty fields error displaying",
   "time" : {
-    "start" : 1545125782060,
-    "stop" : 1545125792089,
-    "duration" : 10029
+    "start" : 1545131771944,
+    "stop" : 1545131776552,
+    "duration" : 4608
   },
   "summary" : {
     "attachments" : 0,
@@ -17,7 +17,7 @@
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "129ea8047c3c7c2",
+    "uid" : "d157c47a0029cc1f",
     "name" : "Gradle suite : Gradle test",
     "title" : "Gradle suite : Gradle test"
   },
@@ -34,11 +34,11 @@
     "name" : "testClass",
     "value" : "ru.wombat.admin.tests.Tests.AddUserTest"
   }, {
-    "name" : "testMethod",
-    "value" : "adminCanUpgradeUser"
-  }, {
     "name" : "host",
     "value" : "MacBook-Aleksandr.local"
+  }, {
+    "name" : "thread",
+    "value" : "13914@MacBook-Aleksandr.local.Test worker(10)"
   }, {
     "name" : "framework",
     "value" : "TestNG"
@@ -49,8 +49,8 @@
     "name" : "testSuite",
     "value" : "Gradle suite"
   }, {
-    "name" : "thread",
-    "value" : "13501@MacBook-Aleksandr.local.Test worker(10)"
+    "name" : "testMethod",
+    "value" : "emptyFieldsErrorDisplaying"
   }, {
     "name" : "suite-title",
     "value" : "Gradle suite : Gradle test"

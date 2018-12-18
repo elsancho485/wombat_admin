@@ -1,11 +1,11 @@
 {
-  "uid" : "a8b3e51d12ad5d2f",
-  "name" : "emptyFieldsErrorDisplaying",
-  "title" : "Empty fields error displaying",
+  "uid" : "9fadb391fd8f206b",
+  "name" : "adminCanArchivateUser",
+  "title" : "Admin can archivate user",
   "time" : {
-    "start" : 1545125800616,
-    "stop" : 1545125805447,
-    "duration" : 4831
+    "start" : 1545131776556,
+    "stop" : 1545131787166,
+    "duration" : 10610
   },
   "summary" : {
     "attachments" : 0,
@@ -17,7 +17,7 @@
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "129ea8047c3c7c2",
+    "uid" : "d157c47a0029cc1f",
     "name" : "Gradle suite : Gradle test",
     "title" : "Gradle suite : Gradle test"
   },
@@ -34,8 +34,14 @@
     "name" : "testClass",
     "value" : "ru.wombat.admin.tests.Tests.AddUserTest"
   }, {
+    "name" : "testMethod",
+    "value" : "adminCanArchivateUser"
+  }, {
     "name" : "host",
     "value" : "MacBook-Aleksandr.local"
+  }, {
+    "name" : "thread",
+    "value" : "13914@MacBook-Aleksandr.local.Test worker(10)"
   }, {
     "name" : "framework",
     "value" : "TestNG"
@@ -45,12 +51,6 @@
   }, {
     "name" : "testSuite",
     "value" : "Gradle suite"
-  }, {
-    "name" : "thread",
-    "value" : "13501@MacBook-Aleksandr.local.Test worker(10)"
-  }, {
-    "name" : "testMethod",
-    "value" : "emptyFieldsErrorDisplaying"
   }, {
     "name" : "suite-title",
     "value" : "Gradle suite : Gradle test"
