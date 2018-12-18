@@ -47,7 +47,7 @@ public class TestBase extends UserData {
     }
 
     public void goToEditUserData() { //Переход к форме редактирования сотрудника
-        sleep(500);
+        sleep(5000);
         $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Активные'])[1]/following::p[1]")).click();
     }
 

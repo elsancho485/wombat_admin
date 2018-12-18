@@ -3,11 +3,15 @@ package ru.wombat.admin.tests.DataAndHelpers;
 import io.codearte.jfairy.Fairy;
 import io.codearte.jfairy.producer.person.Person;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 
 import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Condition.value;
+import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.sleep;
 
 public class UserData { //Данные пользователя
 
@@ -132,11 +136,22 @@ public class UserData { //Данные пользователя
     }
 
     public void editFirstAndLastName() { //Редактирование имени и фамилии пользователя
-        $(By.name("rrf.profile.firstName")).clear();
+        $(By.name("rrf.profile.firstName")).click();
+//        sleep(5000);
+        for(int i = 0; i< 20; i++){
+            $(By.name("rrf.profile.firstName")).sendKeys(Keys.BACK_SPACE);
+        }
+
+
+//        sleep(1000);
+//        $(By.name("rrf.profile.firstName")).append(generateFirstname());
+//        $(By.name("rrf.profile.firstName")).clear();
         $(By.name("rrf.profile.firstName")).setValue(generateFirstname());
         $(By.name("rrf.profile.email")).click();
         $(By.className("success__src-shared-forms-__2lg")).waitUntil(text("сохранено"), 20000);
-        $(By.name("rrf.profile.lastName")).clear();
+        for(int i=0; i<  20; i++) {
+            $(By.name("rrf.profile.lastName")).sendKeys(Keys.BACK_SPACE);
+        }
         $(By.name("rrf.profile.lastName")).setValue(generateLastname());
         $(By.name("rrf.profile.email")).click();
         $(By.className("success__src-shared-forms-__2lg")).waitUntil(text("сохранено"), 20000);

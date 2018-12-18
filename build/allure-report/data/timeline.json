@@ -2,73 +2,73 @@
   "hosts" : [ {
     "title" : "MacBook-Aleksandr.local",
     "threads" : [ {
-      "title" : "6670@MacBook-Aleksandr.local.Test worker(10)",
+      "title" : "11809@MacBook-Aleksandr.local.Test worker(10)",
       "testCases" : [ {
-        "uid" : "613fa5e61e4fc8cc",
+        "uid" : "f898a58de3deee78",
         "name" : "adminCanAddNewUser",
         "title" : "Admin can add new user",
         "time" : {
-          "start" : 1545033697725,
-          "stop" : 1545033722445,
-          "duration" : 24720
+          "start" : 1545114580381,
+          "stop" : 1545114597995,
+          "duration" : 17614
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "FAILED"
       }, {
-        "uid" : "78b3ce3e4b4dda53",
+        "uid" : "dc50981a82302693",
         "name" : "adminCanEditUserData",
         "title" : "Admin can edit user data",
         "time" : {
-          "start" : 1545033722466,
-          "stop" : 1545033736683,
-          "duration" : 14217
+          "start" : 1545114598005,
+          "stop" : 1545114603053,
+          "duration" : 5048
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "FAILED"
       }, {
-        "uid" : "a62e66077c151d06",
+        "uid" : "b7f19301a8e3052d",
         "name" : "adminCanUpgradeUser",
         "title" : "Admin can upgrade user",
         "time" : {
-          "start" : 1545033736688,
-          "stop" : 1545033746672,
-          "duration" : 9984
+          "start" : 1545114603057,
+          "stop" : 1545114607796,
+          "duration" : 4739
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "FAILED"
       }, {
-        "uid" : "8a81c169a640d848",
+        "uid" : "db1408633fd4a110",
         "name" : "errorAboutExistingEmail",
         "title" : "Error about existing email",
         "time" : {
-          "start" : 1545033746680,
-          "stop" : 1545033756068,
-          "duration" : 9388
+          "start" : 1545114607798,
+          "stop" : 1545114612530,
+          "duration" : 4732
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "FAILED"
       }, {
-        "uid" : "aefd834de005fc8f",
+        "uid" : "cbb935b00a5bdc7b",
         "name" : "emptyFieldsErrorDisplaying",
         "title" : "Empty fields error displaying",
         "time" : {
-          "start" : 1545033756075,
-          "stop" : 1545033760945,
-          "duration" : 4870
+          "start" : 1545114612571,
+          "stop" : 1545114616752,
+          "duration" : 4181
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "FAILED"
       }, {
-        "uid" : "4cadd9498b3710a8",
+        "uid" : "98fce8174322041e",
         "name" : "adminCanArchivateUser",
         "title" : "Admin can archivate user",
         "time" : {
-          "start" : 1545033760947,
-          "stop" : 1545033772344,
-          "duration" : 11397
+          "start" : 1545114616754,
+          "stop" : 1545114619995,
+          "duration" : 3241
         },
         "severity" : "NORMAL",
-        "status" : "PASSED"
+        "status" : "FAILED"
       } ]
     } ]
   } ]
