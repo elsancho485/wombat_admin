@@ -1,0 +1,62 @@
+{
+  "uid" : "1e477d26d8310608",
+  "name" : "emptyFieldsErrorDisplaying",
+  "title" : "Empty fields error displaying",
+  "time" : {
+    "start" : 1545135142326,
+    "stop" : 1545135146918,
+    "duration" : 4592
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "MINOR",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "94a79c852a26c689",
+    "name" : "Gradle suite : Gradle test",
+    "title" : "Gradle suite : Gradle test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Gradle suite : Gradle test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wombat.admin.tests.Tests.AddUserTest"
+  }, {
+    "name" : "thread",
+    "value" : "14616@MacBook-Aleksandr.local.Test worker(10)"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Aleksandr.local"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "Gradle test"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "testSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "emptyFieldsErrorDisplaying"
+  }, {
+    "name" : "suite-title",
+    "value" : "Gradle suite : Gradle test"
+  } ],
+  "parameters" : [ ]
+}

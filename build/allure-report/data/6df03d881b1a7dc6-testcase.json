@@ -1,0 +1,62 @@
+{
+  "uid" : "6df03d881b1a7dc6",
+  "name" : "adminCanArchivateUser",
+  "title" : "Admin can archivate user",
+  "time" : {
+    "start" : 1545135146923,
+    "stop" : 1545135160482,
+    "duration" : 13559
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "94a79c852a26c689",
+    "name" : "Gradle suite : Gradle test",
+    "title" : "Gradle suite : Gradle test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Gradle suite : Gradle test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wombat.admin.tests.Tests.AddUserTest"
+  }, {
+    "name" : "thread",
+    "value" : "14616@MacBook-Aleksandr.local.Test worker(10)"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "testMethod",
+    "value" : "adminCanArchivateUser"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Aleksandr.local"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "Gradle test"
+  }, {
+    "name" : "testSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "suite-title",
+    "value" : "Gradle suite : Gradle test"
+  } ],
+  "parameters" : [ ]
+}

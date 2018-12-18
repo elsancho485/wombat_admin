@@ -1,0 +1,62 @@
+{
+  "uid" : "ec223a25edab0596",
+  "name" : "errorAboutExistingEmail",
+  "title" : "Error about existing email",
+  "time" : {
+    "start" : 1545135132683,
+    "stop" : 1545135142319,
+    "duration" : 9636
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "TRIVIAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "94a79c852a26c689",
+    "name" : "Gradle suite : Gradle test",
+    "title" : "Gradle suite : Gradle test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Gradle suite : Gradle test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wombat.admin.tests.Tests.AddUserTest"
+  }, {
+    "name" : "thread",
+    "value" : "14616@MacBook-Aleksandr.local.Test worker(10)"
+  }, {
+    "name" : "testMethod",
+    "value" : "errorAboutExistingEmail"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Aleksandr.local"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "Gradle test"
+  }, {
+    "name" : "testSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "suite-title",
+    "value" : "Gradle suite : Gradle test"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,62 @@
+{
+  "uid" : "59eb11b4c47161b6",
+  "name" : "adminCanAddNewUser",
+  "title" : "Admin can add new user",
+  "time" : {
+    "start" : 1545135071574,
+    "stop" : 1545135098887,
+    "duration" : 27313
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "94a79c852a26c689",
+    "name" : "Gradle suite : Gradle test",
+    "title" : "Gradle suite : Gradle test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Gradle suite : Gradle test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wombat.admin.tests.Tests.AddUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "adminCanAddNewUser"
+  }, {
+    "name" : "thread",
+    "value" : "14616@MacBook-Aleksandr.local.Test worker(10)"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Aleksandr.local"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "Gradle test"
+  }, {
+    "name" : "testSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "suite-title",
+    "value" : "Gradle suite : Gradle test"
+  } ],
+  "parameters" : [ ]
+}

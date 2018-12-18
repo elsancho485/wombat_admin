@@ -1,14 +1,69 @@
 {
   "testCases" : [ {
-    "uid" : "929b7fa654bd0ec6",
+    "uid" : "59eb11b4c47161b6",
     "name" : "adminCanAddNewUser",
     "title" : "Admin can add new user",
     "time" : {
-      "start" : 1545134231128,
-      "stop" : 1545134243353,
-      "duration" : 12225
+      "start" : 1545135071574,
+      "stop" : 1545135098887,
+      "duration" : 27313
     },
     "severity" : "CRITICAL",
-    "status" : "FAILED"
+    "status" : "PASSED"
+  }, {
+    "uid" : "a9ae2f648ed8fd17",
+    "name" : "adminCanEditUserData",
+    "title" : "Admin can edit user data",
+    "time" : {
+      "start" : 1545135098902,
+      "stop" : 1545135121912,
+      "duration" : 23010
+    },
+    "severity" : "CRITICAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "9f210f59136d299a",
+    "name" : "adminCanUpgradeUser",
+    "title" : "Admin can upgrade user",
+    "time" : {
+      "start" : 1545135121917,
+      "stop" : 1545135132679,
+      "duration" : 10762
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ec223a25edab0596",
+    "name" : "errorAboutExistingEmail",
+    "title" : "Error about existing email",
+    "time" : {
+      "start" : 1545135132683,
+      "stop" : 1545135142319,
+      "duration" : 9636
+    },
+    "severity" : "TRIVIAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "1e477d26d8310608",
+    "name" : "emptyFieldsErrorDisplaying",
+    "title" : "Empty fields error displaying",
+    "time" : {
+      "start" : 1545135142326,
+      "stop" : 1545135146918,
+      "duration" : 4592
+    },
+    "severity" : "MINOR",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6df03d881b1a7dc6",
+    "name" : "adminCanArchivateUser",
+    "title" : "Admin can archivate user",
+    "time" : {
+      "start" : 1545135146923,
+      "stop" : 1545135160482,
+      "duration" : 13559
+    },
+    "severity" : "CRITICAL",
+    "status" : "PASSED"
   } ]
 }

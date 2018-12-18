@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dffcc800-a398-4ee9-9654-86c00038b0b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/485b41b8875f29c3-testcase.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/8013a54c7346c988-testcase.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/9fadb391fd8f206b-testcase.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-report/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/c64bb5d2961f52e-testcase.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/defects.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-report/data/defects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/environment.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-report/data/environment.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/f003a68f8af25041-testcase.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/f2c8b84000545d2f-testcase.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-report/data/graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-report/data/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-report/data/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/total.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-report/data/total.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/widgets.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-report/data/widgets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/xunit.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-report/data/xunit.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/3074b1b5-a0bb-4119-beb8-041d41426cf7-testsuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ru/wombat/admin/tests/Tests/AddUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/ru/wombat/admin/tests/Tests/AddUserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.wombat.admin.tests.Tests.AddUserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.wombat.admin.tests.Tests.AddUserTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.wombat.admin.tests.Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.wombat.admin.tests.Tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ru.wombat.admin.tests.Tests.AddUserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ru.wombat.admin.tests.Tests.AddUserTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/Tests/AddUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/Tests/AddUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-report/data/929b7fa654bd0ec6-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/a27ca1c5-1ed3-402e-94b2-50eceeb17ca5-testsuite.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -92,15 +62,15 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitattributes" value="1" />
-          <entry key="gradle" value="1" />
-          <entry key="html" value="2" />
+          <entry key="gradle" value="2" />
+          <entry key="html" value="3" />
           <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="1" />
-          <entry key="HTML" value="2" />
+          <entry key="Groovy" value="2" />
+          <entry key="HTML" value="3" />
           <entry key="JAVA" value="6" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
@@ -119,14 +89,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/Tests/AddUserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
+            <state relative-caret-position="731">
               <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="773">
+              <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -550,7 +529,7 @@
     <option name="x" value="1280" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="height" value="1005" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -619,7 +598,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545134253896" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545135621798" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -765,10 +744,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="23" width="1920" height="1005" extended-state="6" />
+    <frame x="1280" y="23" width="1920" height="1005" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16719915" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16719915" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -778,7 +757,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2705367" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2705367" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -819,16 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/allure-report/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="56" column="19" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/DataAndHelpers/UserData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
@@ -852,13 +821,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/allure-report/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/Tests/AddUserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
+        <state relative-caret-position="731">
           <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
         </state>
       </provider>
     </entry>

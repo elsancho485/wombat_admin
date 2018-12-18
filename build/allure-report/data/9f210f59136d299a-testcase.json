@@ -1,0 +1,62 @@
+{
+  "uid" : "9f210f59136d299a",
+  "name" : "adminCanUpgradeUser",
+  "title" : "Admin can upgrade user",
+  "time" : {
+    "start" : 1545135121917,
+    "stop" : 1545135132679,
+    "duration" : 10762
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "94a79c852a26c689",
+    "name" : "Gradle suite : Gradle test",
+    "title" : "Gradle suite : Gradle test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Gradle suite : Gradle test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wombat.admin.tests.Tests.AddUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "adminCanUpgradeUser"
+  }, {
+    "name" : "thread",
+    "value" : "14616@MacBook-Aleksandr.local.Test worker(10)"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Aleksandr.local"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "Gradle test"
+  }, {
+    "name" : "testSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-title",
+    "value" : "Gradle suite : Gradle test"
+  } ],
+  "parameters" : [ ]
+}

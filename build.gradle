@@ -55,6 +55,6 @@ test {
 }
 
 task generateAllure(type: Exec) {
-    commandLine "allure", "generate build/allure-results"
+    commandLine "allure", "generate target/allure-results"
 }
     tasks.withType(Test)*.finalizedBy allureReport
