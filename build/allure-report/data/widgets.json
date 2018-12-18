@@ -3,34 +3,39 @@
   "plugins" : {
     "total" : {
       "statistic" : {
-        "total" : 6,
-        "passed" : 6,
+        "total" : 1,
+        "passed" : 0,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 0,
+        "failed" : 1,
         "broken" : 0
       },
       "time" : {
-        "start" : 1545131718942,
-        "stop" : 1545131787166,
-        "duration" : 68224
+        "start" : 1545134231128,
+        "stop" : 1545134243353,
+        "duration" : 12225
       }
     },
     "defects" : {
-      "totalCount" : 0,
-      "items" : [ ]
+      "totalCount" : 1,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "367e7dd394d9ce0f",
+        "message" : "ElementNotFound: Element not found {By.name: rrf.user.firstName}\nExpected: visible",
+        "status" : "FAILED"
+      } ]
     },
     "xunit" : {
       "totalCount" : 1,
       "items" : [ {
-        "uid" : "d157c47a0029cc1f",
+        "uid" : "607986ce35eb730a",
         "title" : "Gradle suite : Gradle test",
         "statistic" : {
-          "total" : 6,
-          "passed" : 6,
+          "total" : 1,
+          "passed" : 0,
           "pending" : 0,
           "canceled" : 0,
-          "failed" : 0,
+          "failed" : 1,
           "broken" : 0
         }
       } ]
@@ -40,11 +45,11 @@
       "items" : [ {
         "title" : "Without feature",
         "statistic" : {
-          "total" : 6,
-          "passed" : 6,
+          "total" : 1,
+          "passed" : 0,
           "pending" : 0,
           "canceled" : 0,
-          "failed" : 0,
+          "failed" : 1,
           "broken" : 0
         }
       } ]

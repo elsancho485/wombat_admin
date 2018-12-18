@@ -15,6 +15,7 @@ public class AddUserTest extends TestBase {
         searchCreatedUserInList();
     }
 
+    @Severity(SeverityLevel.MINOR)
     @Test(priority = 5)
     public void emptyFieldsErrorDisplaying() {
         goToAddUserForm();
@@ -23,6 +24,7 @@ public class AddUserTest extends TestBase {
         closeAddUserForm();
     }
 
+    @Severity(SeverityLevel.TRIVIAL)
     @Test(priority = 4)
     public void errorAboutExistingEmail() {
         goToAddUserForm();
@@ -32,6 +34,7 @@ public class AddUserTest extends TestBase {
         closeAddUserForm();
     }
 
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 2)
     public void adminCanEditUserData() {
         goToEditUserData();
@@ -39,6 +42,7 @@ public class AddUserTest extends TestBase {
         searchCreatedUserInList();
     }
 
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 6)
     public void adminCanArchivateUser() {
         searchUserNameInEditFormBefore();
@@ -46,6 +50,7 @@ public class AddUserTest extends TestBase {
         searchUserNameInEditFormAfter();
     }
 
+    @Severity(SeverityLevel.NORMAL)
     @Test(priority = 3)
     public void adminCanUpgradeUser() {
         getGradeNumberBeforeUpgrade();

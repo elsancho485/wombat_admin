@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.wombat.admin.tests.Tests.AddUserTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2018-12-18T11:57:10" hostname="MacBook-Aleksandr.local" time="12.696">
-  <properties/>
-  <testcase name="adminCanAddNewUser" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="12.696">
-    <failure message="Element not found {By.name: rrf.user.firstName}&#10;Expected: visible&#10;Page source: file:/Users/aleksandrtkacenko/Documents/GitHub/wombat_admin/build/reports/tests/1545134243296.0.html&#10;Timeout: 4 s.&#10;Caused by: WebDriverException: chrome not reachable" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {By.name: rrf.user.firstName}
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1545134230375" stop="1545134243368" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Gradle suite : Gradle test</name>
+    <title>Gradle suite : Gradle test</title>
+    <test-cases>
+        <test-case start="1545134231128" stop="1545134243353" status="failed">
+            <name>adminCanAddNewUser</name>
+            <failure>
+                <message>ElementNotFound: Element not found {By.name: rrf.user.firstName}
+Expected: visible</message>
+                <stack-trace>Element not found {By.name: rrf.user.firstName}
 Expected: visible
 Page source: file:/Users/aleksandrtkacenko/Documents/GitHub/wombat_admin/build/reports/tests/1545134243296.0.html
 Timeout: 4 s.
@@ -99,28 +105,23 @@ Session ID: fe18bb2ebf2f2babce31c1c4cf250aec
 	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:74)
 	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:47)
 	... 59 more
-</failure>
-  </testcase>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[дек 18, 2018 2:57:23 PM com.codeborne.selenide.impl.ScreenShotLaboratory savePageSourceToFile
-WARNING: Failed to save page source to 1545134243296.0 because of org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
-System info: host: 'MacBook-Aleksandr.local', ip: 'fe80:0:0:0:8d3:81fa:60cc:4837%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.7 (efcef9a3ecda02..., userDataDir: /var/folders/27/0q6bmg7n40g...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57257}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: fe18bb2ebf2f2babce31c1c4cf250aec
-дек 18, 2018 2:57:23 PM com.codeborne.selenide.impl.ScreenShotLaboratory takeScreenshotImage
-SEVERE: Failed to take screenshot to 1545134243296.0 because of org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
-System info: host: 'MacBook-Aleksandr.local', ip: 'fe80:0:0:0:8d3:81fa:60cc:4837%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.7 (efcef9a3ecda02..., userDataDir: /var/folders/27/0q6bmg7n40g...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57257}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: fe18bb2ebf2f2babce31c1c4cf250aec
-]]></system-err>
-</testsuite>
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Gradle suite"/>
+                <label name="testGroup" value="Gradle test"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="adminCanAddNewUser"/>
+                <label name="severity" value="critical"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="14409@MacBook-Aleksandr.local.Test worker(10)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

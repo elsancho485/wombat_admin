@@ -1,93 +1,38 @@
 {
   "time" : {
-    "start" : 1545131718942,
-    "stop" : 1545131787166,
-    "duration" : 68224
+    "start" : 1545134231128,
+    "stop" : 1545134243353,
+    "duration" : 12225
   },
   "testSuites" : [ {
-    "uid" : "d157c47a0029cc1f",
+    "uid" : "607986ce35eb730a",
     "name" : "Gradle suite : Gradle test",
     "title" : "Gradle suite : Gradle test",
     "time" : {
-      "start" : 1545131718942,
-      "stop" : 1545131787166,
-      "duration" : 68224
+      "start" : 1545134231128,
+      "stop" : 1545134243353,
+      "duration" : 12225
     },
     "statistic" : {
-      "total" : 6,
-      "passed" : 6,
+      "total" : 1,
+      "passed" : 0,
       "pending" : 0,
       "canceled" : 0,
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "8013a54c7346c988",
+      "uid" : "929b7fa654bd0ec6",
       "name" : "adminCanAddNewUser",
       "title" : "Admin can add new user",
       "time" : {
-        "start" : 1545131718942,
-        "stop" : 1545131738766,
-        "duration" : 19824
+        "start" : 1545134231128,
+        "stop" : 1545134243353,
+        "duration" : 12225
       },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "f2c8b84000545d2f",
-      "name" : "adminCanEditUserData",
-      "title" : "Admin can edit user data",
-      "time" : {
-        "start" : 1545131738781,
-        "stop" : 1545131755662,
-        "duration" : 16881
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "485b41b8875f29c3",
-      "name" : "adminCanUpgradeUser",
-      "title" : "Admin can upgrade user",
-      "time" : {
-        "start" : 1545131755669,
-        "stop" : 1545131764418,
-        "duration" : 8749
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "f003a68f8af25041",
-      "name" : "errorAboutExistingEmail",
-      "title" : "Error about existing email",
-      "time" : {
-        "start" : 1545131764421,
-        "stop" : 1545131771939,
-        "duration" : 7518
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "c64bb5d2961f52e",
-      "name" : "emptyFieldsErrorDisplaying",
-      "title" : "Empty fields error displaying",
-      "time" : {
-        "start" : 1545131771944,
-        "stop" : 1545131776552,
-        "duration" : 4608
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "9fadb391fd8f206b",
-      "name" : "adminCanArchivateUser",
-      "title" : "Admin can archivate user",
-      "time" : {
-        "start" : 1545131776556,
-        "stop" : 1545131787166,
-        "duration" : 10610
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
+      "severity" : "CRITICAL",
+      "status" : "FAILED"
     } ]
   } ]
 }
