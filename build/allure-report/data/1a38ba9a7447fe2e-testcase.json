@@ -1,11 +1,11 @@
 {
-  "uid" : "9f210f59136d299a",
-  "name" : "adminCanUpgradeUser",
-  "title" : "Admin can upgrade user",
+  "uid" : "1a38ba9a7447fe2e",
+  "name" : "adminCanEditUserData",
+  "title" : "Admin can edit user data",
   "time" : {
-    "start" : 1545135121917,
-    "stop" : 1545135132679,
-    "duration" : 10762
+    "start" : 1545197873873,
+    "stop" : 1545197894587,
+    "duration" : 20714
   },
   "summary" : {
     "attachments" : 0,
@@ -13,11 +13,11 @@
   },
   "failure" : null,
   "description" : null,
-  "severity" : "NORMAL",
+  "severity" : "CRITICAL",
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "94a79c852a26c689",
+    "uid" : "c02f19c491057102",
     "name" : "Gradle suite : Gradle test",
     "title" : "Gradle suite : Gradle test"
   },
@@ -28,20 +28,23 @@
     "name" : "suite-name",
     "value" : "Gradle suite : Gradle test"
   }, {
+    "name" : "testMethod",
+    "value" : "adminCanEditUserData"
+  }, {
     "name" : "language",
     "value" : "JAVA"
   }, {
     "name" : "testClass",
     "value" : "ru.wombat.admin.tests.Tests.AddUserTest"
   }, {
-    "name" : "testMethod",
-    "value" : "adminCanUpgradeUser"
-  }, {
-    "name" : "thread",
-    "value" : "14616@MacBook-Aleksandr.local.Test worker(10)"
+    "name" : "severity",
+    "value" : "critical"
   }, {
     "name" : "host",
     "value" : "MacBook-Aleksandr.local"
+  }, {
+    "name" : "thread",
+    "value" : "16496@MacBook-Aleksandr.local.Test worker(10)"
   }, {
     "name" : "framework",
     "value" : "TestNG"
@@ -51,9 +54,6 @@
   }, {
     "name" : "testSuite",
     "value" : "Gradle suite"
-  }, {
-    "name" : "severity",
-    "value" : "normal"
   }, {
     "name" : "suite-title",
     "value" : "Gradle suite : Gradle test"

@@ -24,7 +24,7 @@ public class AddUserTest extends TestBase {
         closeAddUserForm();
     }
 
-    @Severity(SeverityLevel.TRIVIAL)
+    @Severity(SeverityLevel.MINOR)
     @Test(priority = 4)
     public void errorAboutExistingEmail() {
         goToAddUserForm();

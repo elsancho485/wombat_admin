@@ -1,11 +1,11 @@
 {
-  "uid" : "6df03d881b1a7dc6",
+  "uid" : "93e2bff034d681ff",
   "name" : "adminCanArchivateUser",
   "title" : "Admin can archivate user",
   "time" : {
-    "start" : 1545135146923,
-    "stop" : 1545135160482,
-    "duration" : 13559
+    "start" : 1545197917265,
+    "stop" : 1545197929081,
+    "duration" : 11816
   },
   "summary" : {
     "attachments" : 0,
@@ -17,7 +17,7 @@
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "94a79c852a26c689",
+    "uid" : "c02f19c491057102",
     "name" : "Gradle suite : Gradle test",
     "title" : "Gradle suite : Gradle test"
   },
@@ -34,9 +34,6 @@
     "name" : "testClass",
     "value" : "ru.wombat.admin.tests.Tests.AddUserTest"
   }, {
-    "name" : "thread",
-    "value" : "14616@MacBook-Aleksandr.local.Test worker(10)"
-  }, {
     "name" : "severity",
     "value" : "critical"
   }, {
@@ -45,6 +42,9 @@
   }, {
     "name" : "host",
     "value" : "MacBook-Aleksandr.local"
+  }, {
+    "name" : "thread",
+    "value" : "16496@MacBook-Aleksandr.local.Test worker(10)"
   }, {
     "name" : "framework",
     "value" : "TestNG"

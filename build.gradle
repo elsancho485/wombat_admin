@@ -51,10 +51,10 @@ test.doFirst {
 
 test {
     useTestNG()
-    systemProperty 'allure.results.directory', 'build/allure-results'
+    systemProperty 'allure.results.directory', 'allure-results'
 }
 
 task generateAllure(type: Exec) {
-    commandLine "allure", "generate target/allure-results"
+    commandLine "allure", "generate allure-results"
 }
     tasks.withType(Test)*.finalizedBy allureReport

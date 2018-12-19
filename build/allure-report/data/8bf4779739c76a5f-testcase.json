@@ -1,11 +1,11 @@
 {
-  "uid" : "ec223a25edab0596",
-  "name" : "errorAboutExistingEmail",
-  "title" : "Error about existing email",
+  "uid" : "8bf4779739c76a5f",
+  "name" : "emptyFieldsErrorDisplaying",
+  "title" : "Empty fields error displaying",
   "time" : {
-    "start" : 1545135132683,
-    "stop" : 1545135142319,
-    "duration" : 9636
+    "start" : 1545197912263,
+    "stop" : 1545197917257,
+    "duration" : 4994
   },
   "summary" : {
     "attachments" : 0,
@@ -13,11 +13,11 @@
   },
   "failure" : null,
   "description" : null,
-  "severity" : "TRIVIAL",
+  "severity" : "MINOR",
   "status" : "PASSED",
   "testId" : null,
   "suite" : {
-    "uid" : "94a79c852a26c689",
+    "uid" : "c02f19c491057102",
     "name" : "Gradle suite : Gradle test",
     "title" : "Gradle suite : Gradle test"
   },
@@ -34,14 +34,11 @@
     "name" : "testClass",
     "value" : "ru.wombat.admin.tests.Tests.AddUserTest"
   }, {
-    "name" : "thread",
-    "value" : "14616@MacBook-Aleksandr.local.Test worker(10)"
-  }, {
-    "name" : "testMethod",
-    "value" : "errorAboutExistingEmail"
-  }, {
     "name" : "host",
     "value" : "MacBook-Aleksandr.local"
+  }, {
+    "name" : "thread",
+    "value" : "16496@MacBook-Aleksandr.local.Test worker(10)"
   }, {
     "name" : "framework",
     "value" : "TestNG"
@@ -49,14 +46,17 @@
     "name" : "testGroup",
     "value" : "Gradle test"
   }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
     "name" : "testSuite",
     "value" : "Gradle suite"
   }, {
+    "name" : "testMethod",
+    "value" : "emptyFieldsErrorDisplaying"
+  }, {
     "name" : "suite-title",
     "value" : "Gradle suite : Gradle test"
-  }, {
-    "name" : "severity",
-    "value" : "trivial"
   } ],
   "parameters" : [ ]
 }
