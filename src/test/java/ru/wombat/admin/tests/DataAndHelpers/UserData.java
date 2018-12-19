@@ -7,9 +7,7 @@ import org.openqa.selenium.Keys;
 
 import java.io.File;
 
-import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Condition.value;
-import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.sleep;
 
@@ -93,6 +91,13 @@ public class UserData { //Данные пользователя
         return gradeIndex.valueOf(gradeIndex.split("G")[1]);
     }
 
+    public String getUserNameFromList() { // Подтягиваем фамилию и имя юзера из первой ячейки до повышения
+        sleep(3000);
+        String userName = $(By.cssSelector("div[class^='name__src-users-components-UsersListItem-__1eu']")).getText();
+        return userName.valueOf(userName.split("Разработчик")[0]);
+    }
+
+
     public String worksSince = "11.04.2010"; // Работает с
     public String birthdate = "11.07.1998"; // Дата рождения
 
@@ -142,10 +147,6 @@ public class UserData { //Данные пользователя
             $(By.name("rrf.profile.firstName")).sendKeys(Keys.BACK_SPACE);
         }
 
-
-//        sleep(1000);
-//        $(By.name("rrf.profile.firstName")).append(generateFirstname());
-//        $(By.name("rrf.profile.firstName")).clear();
         $(By.name("rrf.profile.firstName")).setValue(generateFirstname());
         $(By.name("rrf.profile.email")).click();
         $(By.className("success__src-shared-forms-__2lg")).waitUntil(text("сохранено"), 20000);

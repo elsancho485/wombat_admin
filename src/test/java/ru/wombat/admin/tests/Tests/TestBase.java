@@ -2,6 +2,7 @@ package ru.wombat.admin.tests.Tests;
 
 import com.codeborne.selenide.Configuration;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.testng.annotations.BeforeSuite;
 import ru.wombat.admin.tests.DataAndHelpers.UserData;
 
@@ -31,7 +32,7 @@ public class TestBase extends UserData {
         boolean passwordField = $(By.name("passwd")).isDisplayed();
         if (passwordField) {
             $(By.name("passwd")).setValue(password).pressEnter();
-        } else{
+        } else {
             $(By.id("passp-field-login")).pressEnter();
             $(By.id("passp-field-passwd")).setValue(password).pressEnter();
         }
@@ -40,7 +41,7 @@ public class TestBase extends UserData {
         switchTo().window(0);
         sleep(1000);
         $(By.id("menu__users")).click();
-        }
+    }
 
     public void goToAddUserForm() { //Переход к форме создания сотрудника
         $(By.cssSelector("div[class^='button__src-shared-AddButton-__3G-']")).click();
@@ -67,7 +68,8 @@ public class TestBase extends UserData {
         $(byText("Отправить")).click();
     }
 
-    public void checkingUpgradeUser() { //Проверка на то,что в первой ячейке грейд увелился на 1
+    public void checkingUpgradeUser() { //Проверка на то,что в первой ячейке грейд увелился на 2
+        sleep(3000);
         $(By.cssSelector("div[class^='grade__src-users-components-UsersListItem-__etq']")).shouldHave(text("G" + String.valueOf(getNextGrade())));
     }
 
@@ -75,21 +77,20 @@ public class TestBase extends UserData {
         $(By.className("name__src-users-components-UsersListItem-__1eu")).waitUntil(text(firstname().toUpperCase() + " " + lastname().toUpperCase()), 50000);
     }
 
-    public void searchUserNameInEditFormBefore() { //Поиск имени и фамилии в форме редактирования сотрудника до совершения действия с ним
+    public void searchUncreaterUserInList() { //Проверка списка на то, что 1 ячейка осталось в прежнем состоянии
+        $(By.className("name__src-users-components-UsersListItem-__1eu")).shouldHave(text(getUserNameFromList()));
+    }
+
+    public String searchUserNameInEditFormBefore() { //Поиск имени и фамилии сотрудника в списке до совершения действия с ним
+        sleep(3000);
         $(By.className("name__src-users-components-UsersListItem-__1eu")).waitUntil(visible, 3000);
-        $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Активные'])[1]/following::p[1]")).click();
-        getFirstNameInEditForm();
-        getLastNameInEditForm();
-        $(By.className("closeButton__src-users-components-ReEditUserForm-__20P")).click();
+        String userName = $(By.cssSelector("div[class^='name__src-users-components-UsersListItem-__1eu']")).getText();
+        return userName.valueOf(userName.split("Разработчик")[0]);
     }
 
     public void searchUserNameInEditFormAfter() { //Поиск имени и фамилии в форме редактирования сотрудника после совершения действия с ним
         $(By.className("name__src-users-components-UsersListItem-__1eu")).waitUntil(visible, 3000);
-        $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Активные'])[1]/following::p[1]")).click();
-        getFirstNameInEditForm();
-        getLastNameInEditForm();
-        $(By.className("name__src-users-components-UsersListItem-__1eu")).shouldNotHave(value(getFirstNameInEditForm() + getLastNameInEditForm()));
-        $(By.className("closeButton__src-users-components-ReEditUserForm-__20P")).click();
+        $(By.cssSelector("div[class^='name__src-users-components-UsersListItem-__1eu']")).shouldNotHave(text(getUserNameFromList()));
     }
 
     public void searchForEmptyFieldsError() { // Поиск ошбибки о пустом поле
@@ -106,4 +107,39 @@ public class TestBase extends UserData {
         $(By.className("closeButton__src-users-components-NewUserForm-__Isr")).click();
     }
 
+    public void changeDisplaying() {
+        $(By.className("toggleViewIcon__src-users-components-UsersFilters-__1YL")).click();
+        sleep(3000);
+        $(By.className("cell__src-users-components-UsersGrid-__1Dw")).shouldBe(visible);
+        $(By.className("toggleViewIcon__src-users-components-UsersFilters-__1YL")).click();
+    }
+
+    public void searchUser() {
+        getUserNameFromList();
+        $(By.name("rrf.userFilters.name")).setValue(getUserNameFromList());
+        sleep(3000);
+        $(By.cssSelector("div[class^='name__src-users-components-UsersListItem-__1eu']")).waitUntil(visible, 5000);
+        $(By.cssSelector("div[class^='name__src-users-components-UsersListItem-__1eu']")).shouldHave(text(getUserNameFromList()));
+        for(int i = 0; i< 20; i++){
+            $(By.name("rrf.userFilters.name")).sendKeys(Keys.BACK_SPACE);
+        }
+    }
+
+    public void clickOnPaginationButton() {
+        $(By.cssSelector("div[class='nextPageButton__src-shared-NextPageButton-__3Yd']")).click();
+        sleep(4000);
+    }
+
+    public int checkingSizeOfListBeforePagination() {
+        $(By.cssSelector("div[class='grade__src-users-components-UsersListItem-__etq']")).waitUntil(visible, 5000);
+        int sizeBeforePagination = $$(By.cssSelector("div[class='grade__src-users-components-UsersListItem-__etq']")).size();
+        return sizeBeforePagination;
+    }
+
+
+    public int checkingSizeOfListAfterPagination() {
+        int sizeAfterChecking = $$(By.cssSelector("div[class='grade__src-users-components-UsersListItem-__etq']")).size();
+        return sizeAfterChecking;
+    }
+    
 }

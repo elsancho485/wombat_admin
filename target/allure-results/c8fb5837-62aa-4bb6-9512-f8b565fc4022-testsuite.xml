@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1545219826116" stop="1545219917069" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : wombat_admin</name>
+    <title>Default Suite : wombat_admin</title>
+    <test-cases>
+        <test-case start="1545219826433" stop="1545219828597" status="passed">
+            <name>adminCanOpenAndCloseAddUserForm</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="adminCanOpenAndCloseAddUserForm"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="19012@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545219828607" stop="1545219837566" status="passed">
+            <name>adminCanSearchUserByUsername</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="adminCanSearchUserByUsername"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="19012@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545219837582" stop="1545219840875" status="passed">
+            <name>aminCanChangeUserDisplayingToGrid</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="aminCanChangeUserDisplayingToGrid"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="19012@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545219840878" stop="1545219855656" status="passed">
+            <name>adminCanCloseAddFormWithFiledFields</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="adminCanCloseAddFormWithFiledFields"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="19012@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545219855662" stop="1545219880852" status="passed">
+            <name>adminCanAddNewUser</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="adminCanAddNewUser"/>
+                <label name="severity" value="critical"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="19012@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545219880856" stop="1545219893428" status="failed">
+            <name>adminCanEditUserData</name>
+            <failure>
+                <message>ElementNotFound: Element not found {By.name: rrf.profile.firstName}
+Expected: visible</message>
+                <stack-trace>Element not found {By.name: rrf.profile.firstName}
+Expected: visible
+Screenshot: file:/Users/aleksandrtkacenko/Documents/GitHub/wombat_admin/build/reports/tests/1545219890999.0.png
+Page source: file:/Users/aleksandrtkacenko/Documents/GitHub/wombat_admin/build/reports/tests/1545219890999.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"rrf.profile.firstName"}
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:34)
+	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:100)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:62)
+	at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsVisible(WebElementSource.java:75)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:13)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:9)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:144)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy6.click(Unknown Source)
+	at ru.wombat.admin.tests.DataAndHelpers.UserData.editFirstAndLastName(UserData.java:143)
+	at ru.wombat.admin.tests.Tests.AddUserTest.adminCanEditUserData(AddUserTest.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:687)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+	at org.testng.TestRunner.privateRun(TestRunner.java:724)
+	at org.testng.TestRunner.run(TestRunner.java:574)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1142)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1064)
+	at org.testng.TestNG.runSuites(TestNG.java:994)
+	at org.testng.TestNG.run(TestNG.java:962)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"rrf.profile.firstName"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MacBook-Aleksandr.local', ip: 'fe80:0:0:0:8d3:81fa:60cc:4837%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.7 (efcef9a3ecda02..., userDataDir: /var/folders/27/0q6bmg7n40g...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50593}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 7bcb8fb74013c6c0dddc9cfa2c7c1f04
+*** Element info: {Using=name, value=rrf.profile.firstName}
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:28)
+	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:74)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:47)
+	... 33 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="adminCanEditUserData"/>
+                <label name="severity" value="critical"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="19012@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545219893475" stop="1545219902648" status="failed">
+            <name>adminCanUpgradeUser</name>
+            <failure>
+                <message>ElementIsNotClickableException: WebDriverException: unknown error: Element &lt;img src="/assets/img/upgrade.94ebb9d2d73ee7dbf0705581ecd96ddc.svg" alt="" class="activeImage__src-users-components-UsersListItem-__3c8"&gt; is not clickable at point (1270, 176). Other element would receive the click: &lt;input type="text" name="rrf.profile.birthDate" placeholder="ДД.ММ.ГГГГ" class="input__src-shared-forms-__3OP" value="11.07.1998"&gt;
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MacBook-Aleksandr.local', ip: 'fe80:0:0:0:8d3:81fa:60cc:4837%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.7 (efcef9a3ecda02..., userDataDir: /var/folders/27/0q6bmg7n40g...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50593}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 7bcb8fb74013c6c0dddc9cfa2c7c1f04</message>
+                <stack-trace>ElementIsNotClickableException WebDriverException: unknown error: Element &lt;img src="/assets/img/upgrade.94ebb9d2d73ee7dbf0705581ecd96ddc.svg" alt="" class="activeImage__src-users-components-UsersListItem-__3c8"&gt; is not clickable at point (1270, 176). Other element would receive the click: &lt;input type="text" name="rrf.profile.birthDate" placeholder="ДД.ММ.ГГГГ" class="input__src-shared-forms-__3OP" value="11.07.1998"&gt;
+Screenshot: file:/Users/aleksandrtkacenko/Documents/GitHub/wombat_admin/build/reports/tests/1545219901956.1.png
+Page source: file:/Users/aleksandrtkacenko/Documents/GitHub/wombat_admin/build/reports/tests/1545219901956.1.html
+Timeout: 4 s.
+Caused by: WebDriverException: unknown error: Element &lt;img src="/assets/img/upgrade.94ebb9d2d73ee7dbf0705581ecd96ddc.svg" alt="" class="activeImage__src-users-components-UsersListItem-__3c8"&gt; is not clickable at point (1270, 176). Other element would receive the click: &lt;input type="text" name="rrf.profile.birthDate" placeholder="ДД.ММ.ГГГГ" class="input__src-shared-forms-__3OP" value="11.07.1998"&gt;
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy6.click(Unknown Source)
+	at ru.wombat.admin.tests.Tests.TestBase.upgradeUser(TestBase.java:62)
+	at ru.wombat.admin.tests.Tests.AddUserTest.adminCanUpgradeUser(AddUserTest.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:687)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+	at org.testng.TestRunner.privateRun(TestRunner.java:724)
+	at org.testng.TestRunner.run(TestRunner.java:574)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1142)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1064)
+	at org.testng.TestNG.runSuites(TestNG.java:994)
+	at org.testng.TestNG.run(TestNG.java:962)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element &lt;img src="/assets/img/upgrade.94ebb9d2d73ee7dbf0705581ecd96ddc.svg" alt="" class="activeImage__src-users-components-UsersListItem-__3c8"&gt; is not clickable at point (1270, 176). Other element would receive the click: &lt;input type="text" name="rrf.profile.birthDate" placeholder="ДД.ММ.ГГГГ" class="input__src-shared-forms-__3OP" value="11.07.1998"&gt;
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MacBook-Aleksandr.local', ip: 'fe80:0:0:0:8d3:81fa:60cc:4837%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.7 (efcef9a3ecda02..., userDataDir: /var/folders/27/0q6bmg7n40g...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50593}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 7bcb8fb74013c6c0dddc9cfa2c7c1f04
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.codeborne.selenide.commands.Click.click(Click.java:26)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:13)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:9)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:144)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	... 28 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="adminCanUpgradeUser"/>
+                <label name="severity" value="normal"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="19012@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545219902653" stop="1545219906792" status="failed">
+            <name>errorAboutExistingEmail</name>
+            <failure>
+                <message>ElementNotFound: Element not found {div[class^='button__src-shared-AddButton-__3G-']}
+Expected: visible</message>
+                <stack-trace>Element not found {div[class^='button__src-shared-AddButton-__3G-']}
+Expected: visible
+Page source: file:/Users/aleksandrtkacenko/Documents/GitHub/wombat_admin/build/reports/tests/1545219906754.2.html
+Timeout: 4 s.
+Caused by: NoSuchWindowException: no such window: window was already closed
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:34)
+	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:100)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:62)
+	at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsVisible(WebElementSource.java:75)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:13)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:9)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:144)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy6.click(Unknown Source)
+	at ru.wombat.admin.tests.Tests.TestBase.goToAddUserForm(TestBase.java:47)
+	at ru.wombat.admin.tests.Tests.AddUserTest.errorAboutExistingEmail(AddUserTest.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:687)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+	at org.testng.TestRunner.privateRun(TestRunner.java:724)
+	at org.testng.TestRunner.run(TestRunner.java:574)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1142)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1064)
+	at org.testng.TestNG.runSuites(TestNG.java:994)
+	at org.testng.TestNG.run(TestNG.java:962)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MacBook-Aleksandr.local', ip: 'fe80:0:0:0:8d3:81fa:60cc:4837%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.7 (efcef9a3ecda02..., userDataDir: /var/folders/27/0q6bmg7n40g...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50593}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 7bcb8fb74013c6c0dddc9cfa2c7c1f04
+*** Element info: {Using=css selector, value=div[class^='button__src-shared-AddButton-__3G-']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:28)
+	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:74)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:47)
+	... 33 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="errorAboutExistingEmail"/>
+                <label name="severity" value="minor"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="19012@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545219906794" stop="1545219910988" status="failed">
+            <name>emptyFieldsErrorDisplaying</name>
+            <failure>
+                <message>ElementNotFound: Element not found {div[class^='button__src-shared-AddButton-__3G-']}
+Expected: visible</message>
+                <stack-trace>Element not found {div[class^='button__src-shared-AddButton-__3G-']}
+Expected: visible
+Page source: file:/Users/aleksandrtkacenko/Documents/GitHub/wombat_admin/build/reports/tests/1545219910961.3.html
+Timeout: 4 s.
+Caused by: NoSuchWindowException: no such window: window was already closed
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:34)
+	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:100)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:62)
+	at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsVisible(WebElementSource.java:75)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:13)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:9)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:144)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy6.click(Unknown Source)
+	at ru.wombat.admin.tests.Tests.TestBase.goToAddUserForm(TestBase.java:47)
+	at ru.wombat.admin.tests.Tests.AddUserTest.emptyFieldsErrorDisplaying(AddUserTest.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:687)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+	at org.testng.TestRunner.privateRun(TestRunner.java:724)
+	at org.testng.TestRunner.run(TestRunner.java:574)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1142)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1064)
+	at org.testng.TestNG.runSuites(TestNG.java:994)
+	at org.testng.TestNG.run(TestNG.java:962)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MacBook-Aleksandr.local', ip: 'fe80:0:0:0:8d3:81fa:60cc:4837%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.7 (efcef9a3ecda02..., userDataDir: /var/folders/27/0q6bmg7n40g...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50593}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 7bcb8fb74013c6c0dddc9cfa2c7c1f04
+*** Element info: {Using=css selector, value=div[class^='button__src-shared-AddButton-__3G-']}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:28)
+	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:74)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:47)
+	... 33 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="emptyFieldsErrorDisplaying"/>
+                <label name="severity" value="minor"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="19012@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545219910994" stop="1545219917064" status="failed">
+            <name>adminCanArchivateUser</name>
+            <failure>
+                <message>ElementNotFound: Element not found {By.className: name__src-users-components-UsersListItem-__1eu}
+Expected: visible</message>
+                <stack-trace>Element not found {By.className: name__src-users-components-UsersListItem-__1eu}
+Expected: visible
+Page source: file:/Users/aleksandrtkacenko/Documents/GitHub/wombat_admin/build/reports/tests/1545219917035.4.html
+Timeout: 3 s.
+Caused by: NoSuchWindowException: no such window: window was already closed
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:34)
+	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:100)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:62)
+	at com.codeborne.selenide.commands.Should.should(Should.java:35)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:29)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:12)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:144)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy6.waitUntil(Unknown Source)
+	at ru.wombat.admin.tests.Tests.TestBase.searchUserNameInEditFormBefore(TestBase.java:85)
+	at ru.wombat.admin.tests.Tests.AddUserTest.adminCanArchivateUser(AddUserTest.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:687)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+	at org.testng.TestRunner.privateRun(TestRunner.java:724)
+	at org.testng.TestRunner.run(TestRunner.java:574)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1142)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1064)
+	at org.testng.TestNG.runSuites(TestNG.java:994)
+	at org.testng.TestNG.run(TestNG.java:962)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'MacBook-Aleksandr.local', ip: 'fe80:0:0:0:8d3:81fa:60cc:4837%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.7 (efcef9a3ecda02..., userDataDir: /var/folders/27/0q6bmg7n40g...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50593}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 7bcb8fb74013c6c0dddc9cfa2c7c1f04
+*** Element info: {Using=class name, value=name__src-users-components-UsersListItem-__1eu}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:28)
+	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:74)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:47)
+	... 33 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="adminCanArchivateUser"/>
+                <label name="severity" value="critical"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="19012@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

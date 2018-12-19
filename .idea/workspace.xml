@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dffcc800-a398-4ee9-9654-86c00038b0b9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/1e477d26d8310608-testcase.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/59eb11b4c47161b6-testcase.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/6df03d881b1a7dc6-testcase.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/9f210f59136d299a-testcase.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/a9ae2f648ed8fd17-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-report/data/1a38ba9a7447fe2e-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-report/data/21f87dcf634bc25f-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-report/data/4ebff95daa2302a2-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-report/data/8bf4779739c76a5f-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-report/data/900b3e2269648d3b-testcase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-report/data/93e2bff034d681ff-testcase.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/allure-report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-report/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-report/data/ec223a25edab0596-testcase.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/allure-report/data/environment.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-report/data/environment.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/allure-report/data/graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-report/data/graph.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/allure-report/data/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-report/data/report.json" afterDir="false" />
@@ -23,13 +23,16 @@
       <change beforePath="$PROJECT_DIR$/build/allure-report/data/total.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-report/data/total.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/allure-report/data/widgets.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-report/data/widgets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/allure-report/data/xunit.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/allure-report/data/xunit.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/d8f5790c-0b2b-44c5-a8a1-48ea66882f1a-testsuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/0c7e4e7b-e08e-4f0b-8eb9-c1b2aa718ca3-testsuite.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.wombat.admin.tests.Tests.AddUserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.wombat.admin.tests.Tests.AddUserTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.wombat.admin.tests.Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.wombat.admin.tests.Tests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ru.wombat.admin.tests.Tests.AddUserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ru.wombat.admin.tests.Tests.AddUserTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/wombat/admin/tests/Tests/AddUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/wombat/admin/tests/Tests/AddUserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/DataAndHelpers/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/DataAndHelpers/UserData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/Tests/AddUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/Tests/AddUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/Tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/Tests/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -104,13 +107,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="6" />
-          <entry key="java" value="367" />
+          <entry key="java" value="2201" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="6" />
-          <entry key="JAVA" value="367" />
+          <entry key="JAVA" value="2201" />
         </counts>
       </usages-collector>
     </session>
@@ -120,39 +123,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/Tests/AddUserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="783">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/allure-report/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/Tests/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="74" column="70" selection-start-line="74" selection-start-column="70" selection-end-line="74" selection-end-column="70" />
+            <state relative-caret-position="798">
+              <caret line="143" column="4" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
               <folding>
                 <element signature="e#1704#1705#0" expanded="true" />
                 <element signature="e#1819#1820#0" expanded="true" />
-                <element signature="e#5100#5101#0" expanded="true" />
-                <element signature="e#5248#5249#0" expanded="true" />
+                <element signature="e#5116#5117#0" expanded="true" />
+                <element signature="e#5264#5265#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,10 +154,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/DataAndHelpers/UserData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+            <state relative-caret-position="-632">
+              <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#telegram#0;class#UserData#0" />
               </folding>
             </state>
           </provider>
@@ -361,9 +355,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4632088865000" />
+        <entry key="$PROJECT_DIR$" value="4632152120000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="678374187" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1749598588" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2083459160" />
       </map>
     </option>
@@ -552,14 +546,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/DataAndHelpers/UserData.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/Tests/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/Tests/AddUserTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/DataAndHelpers/UserData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/Tests/AddUserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/Tests/TestBase.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1279" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
@@ -632,7 +626,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545198810450" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545226599594" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -646,25 +640,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.wombat_admin [build]">
-    <configuration name="wombat_admin [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="TestNG.AddUserTest.paginationTest">
     <configuration name="AddUserTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="wombat_admin_test" />
       <extension name="coverage">
@@ -681,7 +657,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddUserTest.adminCanEditUserData" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddUserTest.adminCanArchivateUser" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="wombat_admin_test" />
       <extension name="coverage">
         <pattern>
@@ -691,7 +667,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.wombat.admin.tests.Tests" />
       <option name="MAIN_CLASS_NAME" value="ru.wombat.admin.tests.Tests.AddUserTest" />
-      <option name="METHOD_NAME" value="adminCanEditUserData" />
+      <option name="METHOD_NAME" value="adminCanArchivateUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -699,7 +675,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddUserTest.emptyFieldsErrorDisplaying" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddUserTest.adminCanCloseAddFormWithFiledFields" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="wombat_admin_test" />
       <extension name="coverage">
         <pattern>
@@ -709,7 +685,43 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.wombat.admin.tests.Tests" />
       <option name="MAIN_CLASS_NAME" value="ru.wombat.admin.tests.Tests.AddUserTest" />
-      <option name="METHOD_NAME" value="emptyFieldsErrorDisplaying" />
+      <option name="METHOD_NAME" value="adminCanCloseAddFormWithFiledFields" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddUserTest.adminCanUpgradeUser" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="wombat_admin_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.wombat.admin.tests.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.wombat.admin.tests.Tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.wombat.admin.tests.Tests.AddUserTest" />
+      <option name="METHOD_NAME" value="adminCanUpgradeUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddUserTest.paginationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="wombat_admin_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.wombat.admin.tests.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.wombat.admin.tests.Tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.wombat.admin.tests.Tests.AddUserTest" />
+      <option name="METHOD_NAME" value="paginationTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -719,16 +731,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.AddUserTest" />
-      <item itemvalue="Gradle.wombat_admin [build]" />
-      <item itemvalue="TestNG.AddUserTest.adminCanEditUserData" />
-      <item itemvalue="TestNG.AddUserTest.emptyFieldsErrorDisplaying" />
+      <item itemvalue="TestNG.AddUserTest.adminCanArchivateUser" />
+      <item itemvalue="TestNG.AddUserTest.adminCanCloseAddFormWithFiledFields" />
+      <item itemvalue="TestNG.AddUserTest.adminCanUpgradeUser" />
+      <item itemvalue="TestNG.AddUserTest.paginationTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.wombat_admin [build]" />
-        <item itemvalue="TestNG.AddUserTest.emptyFieldsErrorDisplaying" />
-        <item itemvalue="TestNG.AddUserTest.adminCanEditUserData" />
+        <item itemvalue="TestNG.AddUserTest.paginationTest" />
         <item itemvalue="TestNG.AddUserTest" />
+        <item itemvalue="TestNG.AddUserTest.adminCanArchivateUser" />
+        <item itemvalue="TestNG.AddUserTest.adminCanUpgradeUser" />
+        <item itemvalue="TestNG.AddUserTest.adminCanCloseAddFormWithFiledFields" />
       </list>
     </recent_temporary>
   </component>
@@ -746,42 +760,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddUserTest_adminCanEditUserData - 2018.12.18 at 10h 31m 59s.xml">
-      <configuration name="AddUserTest.adminCanEditUserData" configurationId="TestNG" />
+    <history-entry file="AddUserTest_paginationTest - 2018.12.19 at 16h 25m 21s.xml">
+      <configuration name="AddUserTest.paginationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddUserTest_adminCanEditUserData - 2018.12.18 at 10h 34m 15s.xml">
-      <configuration name="AddUserTest.adminCanEditUserData" configurationId="TestNG" />
+    <history-entry file="AddUserTest_paginationTest - 2018.12.19 at 16h 27m 50s.xml">
+      <configuration name="AddUserTest.paginationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddUserTest_adminCanEditUserData - 2018.12.18 at 10h 35m 12s.xml">
-      <configuration name="AddUserTest.adminCanEditUserData" configurationId="TestNG" />
+    <history-entry file="AddUserTest_paginationTest - 2018.12.19 at 16h 29m 51s.xml">
+      <configuration name="AddUserTest.paginationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddUserTest_adminCanEditUserData - 2018.12.18 at 11h 21m 18s.xml">
-      <configuration name="AddUserTest.adminCanEditUserData" configurationId="TestNG" />
+    <history-entry file="AddUserTest_paginationTest - 2018.12.19 at 16h 30m 15s.xml">
+      <configuration name="AddUserTest.paginationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddUserTest_adminCanEditUserData - 2018.12.18 at 11h 22m 20s.xml">
-      <configuration name="AddUserTest.adminCanEditUserData" configurationId="TestNG" />
+    <history-entry file="AddUserTest_paginationTest - 2018.12.19 at 16h 31m 00s.xml">
+      <configuration name="AddUserTest.paginationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddUserTest_adminCanEditUserData - 2018.12.18 at 11h 26m 13s.xml">
-      <configuration name="AddUserTest.adminCanEditUserData" configurationId="TestNG" />
+    <history-entry file="AddUserTest_paginationTest - 2018.12.19 at 16h 31m 07s.xml">
+      <configuration name="AddUserTest.paginationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddUserTest_adminCanEditUserData - 2018.12.18 at 11h 28m 17s.xml">
-      <configuration name="AddUserTest.adminCanEditUserData" configurationId="TestNG" />
+    <history-entry file="AddUserTest_paginationTest - 2018.12.19 at 16h 31m 44s.xml">
+      <configuration name="AddUserTest.paginationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddUserTest_adminCanEditUserData - 2018.12.18 at 11h 52m 52s.xml">
-      <configuration name="AddUserTest.adminCanEditUserData" configurationId="TestNG" />
+    <history-entry file="AddUserTest_paginationTest - 2018.12.19 at 16h 35m 45s.xml">
+      <configuration name="AddUserTest.paginationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddUserTest_adminCanEditUserData - 2018.12.18 at 11h 56m 17s.xml">
-      <configuration name="AddUserTest.adminCanEditUserData" configurationId="TestNG" />
+    <history-entry file="AddUserTest_paginationTest - 2018.12.19 at 16h 36m 07s.xml">
+      <configuration name="AddUserTest.paginationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddUserTest_emptyFieldsErrorDisplaying - 2018.12.18 at 12h 47m 53s.xml">
-      <configuration name="AddUserTest.emptyFieldsErrorDisplaying" configurationId="TestNG" />
+    <history-entry file="AddUserTest_paginationTest - 2018.12.19 at 16h 36m 16s.xml">
+      <configuration name="AddUserTest.paginationTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1279" y="23" width="1920" height="1005" extended-state="0" />
+    <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16719915" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16719915" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -791,13 +805,13 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28587076" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978093" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.253886" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39896372" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32953367" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32953367" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32968238" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -813,6 +827,45 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>checkingSizeOfListAfterPagination()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$$(By.cssSelector(&quot;div[class='grade__src-users-components-UsersListItem-__etq']&quot;)).size()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>return</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$$(By.cssSelector(&quot;ul[class='list__src-users-components-UsersList-__1BU']&quot;)).size()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>checkingSizeOfListBeforePagination()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$(By.name(&quot;rrf.userFilters.name&quot;)).setValue(String.valueOf(getFirstNameInEditForm()) + &quot; &quot; + String.valueOf(getLastNameInEditForm()))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getFirstNameInEditForm()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitattributes">
@@ -832,46 +885,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/allure-report/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="53" column="48" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/DataAndHelpers/UserData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+        <state relative-caret-position="-632">
+          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#telegram#0;class#UserData#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/Tests/AddUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/Tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="74" column="70" selection-start-line="74" selection-start-column="70" selection-end-line="74" selection-end-column="70" />
+        <state relative-caret-position="798">
+          <caret line="143" column="4" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
           <folding>
             <element signature="e#1704#1705#0" expanded="true" />
             <element signature="e#1819#1820#0" expanded="true" />
-            <element signature="e#5100#5101#0" expanded="true" />
-            <element signature="e#5248#5249#0" expanded="true" />
+            <element signature="e#5116#5117#0" expanded="true" />
+            <element signature="e#5264#5265#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/allure-report/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/wombat/admin/tests/Tests/AddUserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
         </state>
       </provider>
     </entry>
