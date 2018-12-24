@@ -23,7 +23,7 @@ public class UserData { //Данные пользователя
     }
 
     public String firstname() { //Генерация имени для создания юзера
-        if(firstName == null) {
+        if (firstName == null) {
             Fairy fairy = Fairy.create();
             Person person = fairy.person();
             firstName = person.firstName();
@@ -39,7 +39,7 @@ public class UserData { //Данные пользователя
     }
 
     public String lastname() { //Генерация фамилии для создания юзера
-        if(lastName == null) {
+        if (lastName == null) {
             Fairy fairy = Fairy.create();
             Person person = fairy.person();
             lastName = person.lastName();
@@ -76,9 +76,9 @@ public class UserData { //Данные пользователя
         return lastNameInEditForm;
     }
 
-    public String getGradeNumberBeforeUpgrade() { //Подтягиваем грейд из первой ячейки до повышения
+    public Integer getGradeNumberBeforeUpgrade() { //Подтягиваем грейд из первой ячейки до повышения
         String gradeIndex = $(By.cssSelector("div[class^='grade__src-users-components-UsersListItem-__etq']")).getText();
-        return gradeIndex.valueOf(gradeIndex.split("G")[1]);
+        return Integer.valueOf(gradeIndex.valueOf(gradeIndex.split("G")[1]));
     }
 
     public Integer getNextGrade() { //Определяем следующий грейд
@@ -86,13 +86,15 @@ public class UserData { //Данные пользователя
         return nextGrade;
     }
 
-    public String getGradeNumberAfterUpgrade() { //Подтягиваем грейд из первой ячейки после повышения
+    public Integer getGradeNumber() {
+        //Подтягиваем грейд из первой ячейки после повышения
+        $(By.cssSelector("div[class^='grade__src-users-components-UsersListItem-__etq']")).waitUntil(enabled, 5000);
         String gradeIndex = $(By.cssSelector("div[class^='grade__src-users-components-UsersListItem-__etq']")).getText();
-        return gradeIndex.valueOf(gradeIndex.split("G")[1]);
+        return Integer.valueOf(gradeIndex.valueOf(gradeIndex.split("G")[1]));
     }
 
     public String getUserNameFromList() { // Подтягиваем фамилию и имя юзера из первой ячейки до повышения
-        sleep(3000);
+        $(By.cssSelector("div[class^='name__src-users-components-UsersListItem-__1eu']")).waitUntil(visible, 5000);
         String userName = $(By.cssSelector("div[class^='name__src-users-components-UsersListItem-__1eu']")).getText();
         return userName.valueOf(userName.split("Разработчик")[0]);
     }
@@ -105,7 +107,7 @@ public class UserData { //Данные пользователя
         $(By.name("rrf.user.userpic")).uploadFile(new File("src/test/resources/stqa.png"));
         $(By.name("rrf.user.firstName")).setValue(firstname());
         $(By.name("rrf.user.lastName")).setValue(lastname());
-        $(By.name("rrf.user.email")).setValue(email() + Math.random() );
+        $(By.name("rrf.user.email")).setValue(email() + Math.random());
         $(By.name("rrf.user.phone")).setValue(phone());
         $(By.name("rrf.user.telegram")).setValue(telegram());
         $(By.name("rrf.user.worksSince")).setValue(worksSince);
@@ -138,19 +140,19 @@ public class UserData { //Данные пользователя
         $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/following::input[1]")).setValue("Dev Team").pressEnter();
         $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::span[3]")).click();
         $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::input[1]")).setValue("G4").pressEnter();
+
     }
 
     public void editFirstAndLastName() { //Редактирование имени и фамилии пользователя
         $(By.name("rrf.profile.firstName")).click();
-//        sleep(5000);
-        for(int i = 0; i< 20; i++){
+        for (int i = 0; i < 20; i++) {
             $(By.name("rrf.profile.firstName")).sendKeys(Keys.BACK_SPACE);
         }
 
         $(By.name("rrf.profile.firstName")).setValue(generateFirstname());
         $(By.name("rrf.profile.email")).click();
         $(By.className("success__src-shared-forms-__2lg")).waitUntil(text("сохранено"), 20000);
-        for(int i=0; i<  20; i++) {
+        for (int i = 0; i < 20; i++) {
             $(By.name("rrf.profile.lastName")).sendKeys(Keys.BACK_SPACE);
         }
         $(By.name("rrf.profile.lastName")).setValue(generateLastname());
@@ -158,4 +160,54 @@ public class UserData { //Данные пользователя
         $(By.className("success__src-shared-forms-__2lg")).waitUntil(text("сохранено"), 20000);
         $(By.className("closeButton__src-users-components-ReEditUserForm-__20P")).click();
     }
+
+    public void fillAddUserFormWithSpace() { //Заполнение данных юзера
+        $(By.name("rrf.user.firstName")).setValue(" ");
+        $(By.name("rrf.user.lastName")).setValue(" ");
+        $(By.name("rrf.user.email")).setValue(" ");
+        $(By.name("rrf.user.phone")).setValue(" ");
+        $(By.name("rrf.user.telegram")).setValue(" ");
+        $(By.name("rrf.user.worksSince")).setValue(" ");
+        $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::label[1]")).click();
+        $(By.name("rrf.user.birthDate")).setValue(" ");
+        $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::label[1]")).click();
+        $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/following::span[3]")).click();
+        $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/following::input[1]")).setValue("Dev Team").pressEnter();
+        $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::span[3]")).click();
+        $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::input[1]")).setValue("G4").pressEnter();
+        $(By.cssSelector("div[class^='name__src-users-components-UsersListItem-__1eu']")).waitUntil(visible, 10000);
+    }
+
+    public void clearFieldsEditUserForm() {
+        $(By.name("rrf.profile.firstName")).click();
+        for (int i = 0; i < 20; i++) {
+            $(By.name("rrf.profile.firstName")).sendKeys(Keys.BACK_SPACE);
+        }
+        $(By.name("rrf.profile.lastName")).click();
+        for (int i = 0; i < 20; i++) {
+            $(By.name("rrf.profile.lastName")).sendKeys(Keys.BACK_SPACE);
+        }
+        $(By.name("rrf.profile.email")).click();
+        for (int i = 0; i < 20; i++) {
+            $(By.name("rrf.profile.email")).sendKeys(Keys.BACK_SPACE);
+        }
+        $(By.name("rrf.profile.phone")).click();
+        for (int i = 0; i < 20; i++) {
+            $(By.name("rrf.profile.phone")).sendKeys(Keys.BACK_SPACE);
+        }
+        $(By.name("rrf.profile.telegram")).click();
+        for (int i = 0; i < 20; i++) {
+            $(By.name("rrf.profile.telegram")).sendKeys(Keys.BACK_SPACE);
+        }
+        $(By.name("rrf.profile.worksSince")).click();
+        for (int i = 0; i < 20; i++) {
+            $(By.name("rrf.profile.worksSince")).sendKeys(Keys.BACK_SPACE);
+        }
+        $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::label[1]")).click();
+        $(By.name("rrf.profile.birthDate")).click();
+        for (int i = 0; i < 20; i++) {
+            $(By.name("rrf.profile.birthDate")).sendKeys(Keys.BACK_SPACE);
+        }
+    }
+
 }
