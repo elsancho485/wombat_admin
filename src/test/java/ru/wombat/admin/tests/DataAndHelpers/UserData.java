@@ -82,7 +82,7 @@ public class UserData { //Данные пользователя
     }
 
     public Integer getNextGrade() { //Определяем следующий грейд
-        int nextGrade = (Integer.valueOf(getGradeNumberBeforeUpgrade()) + 2);
+        int nextGrade = (Integer.valueOf(getGradeNumberBeforeUpgrade()) + 1);
         return nextGrade;
     }
 
@@ -120,8 +120,8 @@ public class UserData { //Данные пользователя
         $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::input[1]")).setValue("G4").pressEnter();
     }
 
-    public void submitUserCreation() { // Завершение добавления сотрудника(Клик по кнопке "Создать и выслать инвайт"
-        $(By.className("button__src-users-components-NewUserForm-__z9_")).pressEnter();
+    public void submitUserCreation() { // Завершение добавления сотрудника(Клик по кнопке "Создать и выслать инвайт")
+        $(By.name("rrf.user.firstName")).pressEnter();
     }
 
     public void fillAddUserFormWithExistingEmail() { // Заполнение формы создания юзера с существующим email
@@ -161,7 +161,7 @@ public class UserData { //Данные пользователя
         $(By.className("closeButton__src-users-components-ReEditUserForm-__20P")).click();
     }
 
-    public void fillAddUserFormWithSpace() { //Заполнение данных юзера
+    public void fillAddUserFormWithSpace() { //Заполнение данных юзера пробелами
         $(By.name("rrf.user.firstName")).setValue(" ");
         $(By.name("rrf.user.lastName")).setValue(" ");
         $(By.name("rrf.user.email")).setValue(" ");
@@ -208,6 +208,12 @@ public class UserData { //Данные пользователя
         for (int i = 0; i < 20; i++) {
             $(By.name("rrf.profile.birthDate")).sendKeys(Keys.BACK_SPACE);
         }
+    }
+
+    public void clearFieldAndTypeExistingEmail() {
+        $(By.name("rrf.profile.email")).click();
+        $(By.name("rrf.profile.email")).clear();
+        $(By.name("rrf.profile.email")).setValue("atkachenko");
     }
 
 }

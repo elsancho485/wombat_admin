@@ -3,6 +3,7 @@ package ru.wombat.admin.tests.Tests;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selectors;
+import com.sun.jdi.IntegerValue;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.BeforeSuite;
@@ -74,13 +75,16 @@ public class TestBase extends UserData {
     }
 
     public void upgradeUser() { //Повышение грейда для сотрудника из 1 ячекйи на один грейд
-        $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Пользователь'])[1]/following::img[1]")).click();
+//        $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Пользователь'])[1]/following::img[1]")).click();
 //        sleep(5000);
         $(By.cssSelector("div[class^='Select Select--single has-value']")).waitUntil(visible, 5000);
         $(By.cssSelector("div[class^='Select Select--single has-value']")).click();
-        $$(By.cssSelector("div[class^='Select-menu-outer']")).findBy(text("G" + String.valueOf(getNextGrade()))).click();
+        $(By.cssSelector("div[class^='Select-menu']")).find(byText("G" + String.valueOf(getNextGrade()))).click();
         $(By.id("salaryBonus")).clear();
         $(By.id("salaryBonus")).setValue("12345");
+    }
+
+    public void submitUserUpgrade() {
         $(byText("Отправить")).click();
         $(By.cssSelector("div[class^='modal__src-users-components-UsersTransfer-__zVA']")).waitUntil(disappear, 20000);
     }
@@ -136,7 +140,7 @@ public class TestBase extends UserData {
     }
 
     public void searchForExistingEmailError() { // Поиск ошибки о том, что email занят
-        $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='обязательно для заполнения'])[1]/following::div[16]")).waitUntil(visible, 5000);
+        $(By.cssSelector("div[class^='rrt-text']")).waitUntil(visible, 5000);
     }
 
     public void closeAddUserForm() { //Клик по кнопке закрытия формы добавления сотрудника
@@ -219,9 +223,14 @@ public class TestBase extends UserData {
         }
     }
 
-    public void goToActiveUsersList() { //Переход к списку активных юзеров
+    public void goToActiveUsersListFromArchive() { //Переход к списку активных юзеров
         $$(By.cssSelector("div[class^='Select-value']")).find(text("Архив")).waitUntil(enabled, 5000).click();
         $("div[class^='Select-menu']").find(byText("Активные")).waitUntil(enabled, 5000).click();
+    }
+
+    public void goToActiveUsersListFromAllUsersList() {
+        $$(By.cssSelector("div[class^='Select-value']")).find(text("Все")).waitUntil(enabled, 10000).click();
+        $("div[class^='Select-menu']").find(byText("Активные")).waitUntil(enabled, 10000).click();
     }
 
     public void searchUsersByGrade() { //Поиск юзеров по грейду
@@ -257,7 +266,7 @@ public class TestBase extends UserData {
         $(By.cssSelector("div[class^='ReactModal__Content ReactModal__Content--after-open substrate__src-users-components-UserModalAlert-__WkU']")).waitUntil(disappear, 10000);
     }
 
-    public void goToAllUsersScreen() { //Переход к спику юзеров по всем профессиям
+    public void goToAllProfessionUsersScreen() { //Переход к спику юзеров по всем профессиям
         $("form[class^='form__src-app-components-Header-__3EW']").find(byText("Разработчик")).click();
         $("div[class^='Select-menu']").find(byText("Все")).click();
     }
@@ -287,6 +296,7 @@ public class TestBase extends UserData {
     public void checkingUserInfo() { //Проверка информации о юзере после его создания(имя,фамилия, грейд, команда)
         sleep(5000);
         searchCreatedUserInList();
+        $("img[src^='/assets/img/defaultUserpic.9fcad495b4ff095188a700daa7e75c3a.svg']").shouldNotBe();
         $("div[class^='grade__src-users-components-UsersListItem-__etq']").shouldHave(text("G4"));
         checkingTeam();
     }
@@ -322,7 +332,12 @@ public class TestBase extends UserData {
         $("div[class^='Select-menu-outer']").find(byText("Удаленный сотрудник")).click();
     }
 
-    public void goToKrasnodarEmployeeList() { //Переход к списку сотрудников из Краснодара
+    public void goToKrasnodarEmployeeListFromRemoteUsers() { //Переход к списку сотрудников из Краснодара
+        $("form[class^='form__src-app-components-Header-__3EW']").find(byText("Удаленный сотрудник")).click();
+        $("div[class^='Select-menu-outer']").find(byText("Краснодар")).click();
+    }
+
+    public void goToKrasnodarEmployeeListFromAllUsers() { //Переход к списку сотрудников из Краснодара
         $("form[class^='form__src-app-components-Header-__3EW']").find(byText("Все")).click();
         $("div[class^='Select-menu-outer']").find(byText("Краснодар")).click();
     }
@@ -351,6 +366,30 @@ public class TestBase extends UserData {
         $(By.id("salaryBonus")).clear();
         $(By.id("salaryBonus")).setValue("-12345");
         $(byText("Отправить")).click();
+    }
+
+    public void checkingNonDisplayingCreateUserInArchiveList() {
+        $(By.cssSelector("div[class^='name__src-users-components-UsersListItem-__1eu']")).waitUntil(visible, 10000);
+        $(By.className("name__src-users-components-UsersListItem-__1eu")).shouldNotHave(text(firstname().toUpperCase() + " " + lastname().toUpperCase()));
+    }
+
+    public void goToAllUsersScreen() {
+        $$(By.cssSelector("div[class^='Select-value']")).findBy(text("Активные")).click();
+        $("div[class^='Select-menu']").find(byText("Все")).click();
+    }
+
+    public int getSalaryCountField() {
+       int salaryBefore = Integer.parseInt($(By.cssSelector("input[name^='salary']")).getValue());
+       return salaryBefore;
+    }
+
+    public int checkingSalaryCountFields() {
+        int salaryAfter = Integer.parseInt($(By.cssSelector("input[name^='salary']")).getValue());
+        return salaryAfter;
+    }
+
+    public void checkingErrorAboutExistingEmailEditUser() {
+        $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='обязательно для заполнения'])[1]/following::div[24]")).waitUntil(visible, 5000);
     }
 
 }

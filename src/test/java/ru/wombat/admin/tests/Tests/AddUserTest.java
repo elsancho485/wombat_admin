@@ -1,7 +1,6 @@
 package ru.wombat.admin.tests.Tests;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.SearchContext;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import ru.yandex.qatools.allure.annotations.Severity;
@@ -31,10 +30,11 @@ public class AddUserTest extends TestBase {
     }
 
     @Test(priority = 4)
-    public void adminCanChangeUserDisplayingToGrid() {
+    public void adminCanChangeUserDisplayingToGridAndToList() {
         changeDisplayingToGrid();
         changeDisplayingToList();
     }
+
 
     @Test(priority = 5)
     public void adminCanCloseAddFormWithFiledFields() {
@@ -66,9 +66,11 @@ public class AddUserTest extends TestBase {
     @Test(priority = 8)
     public void adminCanUpgradeUserTest() {
         int before = getGradeNumber();
+        goToUpgradeUserForm();
         upgradeUser();
+        submitUserUpgrade();
         int after = getGradeNumber();
-        Assert.assertEquals(before + 2 , after);
+        Assert.assertEquals(before + 1 , after);
     }
 
     @Severity(SeverityLevel.MINOR)
@@ -105,7 +107,7 @@ public class AddUserTest extends TestBase {
         searchUserNameBefore();
         goToRecoveryForm();
         recoveryUser();
-        goToActiveUsersList();
+        goToActiveUsersListFromArchive();
         searchUserAfterRecovery();
     }
 
@@ -115,7 +117,7 @@ public class AddUserTest extends TestBase {
         searchUserNameBefore();
         goToRecoveryForm();
         cancelRecoveryUser();
-        goToActiveUsersList();
+        goToActiveUsersListFromArchive();
         searchUserNameAfter();
     }
 
@@ -154,7 +156,7 @@ public class AddUserTest extends TestBase {
         archivateUser();
         goToArchivateUsersList();
         searchUserNameInArchivateUserList();
-        goToActiveUsersList();
+        goToActiveUsersListFromArchive();
     }
 
     @Test(priority = 18)
@@ -187,8 +189,8 @@ public class AddUserTest extends TestBase {
     }
 
     @Test(priority = 22)
-    public void NonDisplayingAddUserButtonOnAllProfessionsUsersScreenTest(){
-        goToAllUsersScreen();
+    public void nonDisplayingAddUserButtonOnAllProfessionsUsersScreenTest(){
+        goToAllProfessionUsersScreen();
         checkingNonDisplayingAddUserButton();
         goToDeveloperUsers();
     }
@@ -258,7 +260,7 @@ public class AddUserTest extends TestBase {
         goToEditUserData();
         checkingCityOfRemoteEmployee();
         closeEditUserForm();
-        goToKrasnodarEmployeeList();
+        goToKrasnodarEmployeeListFromRemoteUsers();
     }
 
     @Test(priority = 31)
@@ -277,9 +279,42 @@ public class AddUserTest extends TestBase {
     }
 
     @Test(priority = 33)
-    public void NonDisplayingAddUserButtonOnAllFilialsUsersScreenTest() {
+    public void nonDisplayingAddUserButtonOnAllFilialsUsersScreenTest() {
         goToAllFilialsUsersList();
         checkingNonDisplayingAddUserButton();
-        goToKrasnodarEmployeeList();
+        goToKrasnodarEmployeeListFromAllUsers();
     }
+
+    @Test(priority = 34)
+    public void displayingCreatedUserInAllUsersListTest() {
+        goToAllUsersScreen();
+        goToAddUserForm();
+        fillAddUserForm();
+        submitUserCreation();
+        searchCreatedUserInList();
+        goToActiveUsersListFromAllUsersList();
+    }
+
+
+    @Test(priority = 35)
+    public void nonDisplayingCreatedUserInArchivateListTest() {
+        goToArchivateUsersList();
+        goToAddUserForm();
+        fillAddUserForm();
+        submitUserCreation();
+        checkingNonDisplayingCreateUserInArchiveList();
+        goToActiveUsersListFromArchive();
+    }
+
+    @Test(priority = 36)
+    public void salaryCorrectCountTest() {
+        goToUpgradeUserForm();
+        int before = getSalaryCountField();
+        upgradeUser();
+//        sleep(5000);
+        int after = checkingSalaryCountFields();
+        Assert.assertEquals(before + 12345, after);
+        closeUpgradeForm();
+    }
+    
 }
