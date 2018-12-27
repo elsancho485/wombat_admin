@@ -53,6 +53,7 @@ public class TestBase extends UserData {
 
 
     public void goToAddUserForm() { //Переход к форме создания сотрудника
+        $(By.cssSelector("div[class^='button__src-shared-AddButton-__3G-']")).waitUntil(visible, 10000);
         $(By.cssSelector("div[class^='button__src-shared-AddButton-__3G-']")).find(byText("+")).click();
     }
 
@@ -110,6 +111,11 @@ public class TestBase extends UserData {
         $(By.className("name__src-users-components-UsersListItem-__1eu")).waitUntil(text(firstname().toUpperCase() + " " + lastname().toUpperCase()), 50000);
     }
 
+    public void searchEditedUserInList() { //Ищем имя и фамилию,отредактированного юзера в первой строке списка
+        $(By.cssSelector("div[class^='name__src-users-components-UsersListItem-__1eu']")).waitUntil(visible, 10000);
+        $(By.className("name__src-users-components-UsersListItem-__1eu")).shouldHave(text(generateFirstname().toUpperCase() + " " + generateLastname().toUpperCase()));
+    }
+
     public void searchUncreaterUserInList() { //Проверка списка на то, что 1 ячейка осталось в прежнем состоянии
         $(By.className("name__src-users-components-UsersListItem-__1eu")).shouldHave(text(getUserNameFromList()));
     }
@@ -139,7 +145,7 @@ public class TestBase extends UserData {
         $(By.cssSelector("div[class^='errors__src-shared-forms-__2sW']")).find(byText("обязательно"));
     }
 
-    public void searchForExistingEmailError() { // Поиск ошибки о том, что email занят
+    public void searchlError() { // Поиск ошибки о том, что email занят
         $(By.cssSelector("div[class^='rrt-text']")).waitUntil(visible, 5000);
     }
 
@@ -229,7 +235,7 @@ public class TestBase extends UserData {
     }
 
     public void goToActiveUsersListFromAllUsersList() {
-        $$(By.cssSelector("div[class^='Select-value']")).find(text("Все")).waitUntil(enabled, 10000).click();
+        $$(By.cssSelector("div[class^='Select-value']")).find(text("Все")).waitUntil(visible, 10000).click();
         $("div[class^='Select-menu']").find(byText("Активные")).waitUntil(enabled, 10000).click();
     }
 
@@ -293,7 +299,7 @@ public class TestBase extends UserData {
         $(By.cssSelector("div[class='caption__src-shared-forms-__2hP']")).shouldBe(visible);
     }
 
-    public void checkingUserInfo() { //Проверка информации о юзере после его создания(имя,фамилия, грейд, команда)
+    public void checkingUserInfoAfterCreate() { //Проверка информации о юзере после его создания(имя,фамилия, грейд, команда)
         sleep(5000);
         searchCreatedUserInList();
         $("img[src^='/assets/img/defaultUserpic.9fcad495b4ff095188a700daa7e75c3a.svg']").shouldNotBe();
@@ -391,5 +397,18 @@ public class TestBase extends UserData {
     public void checkingErrorAboutExistingEmailEditUser() {
         $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='обязательно для заполнения'])[1]/following::div[24]")).waitUntil(visible, 5000);
     }
+
+    public void searchUserNameAfterClose() {
+        $(By.cssSelector("div[class^='name__src-users-components-UsersListItem-__1eu']")).shouldHave(text(nameForArhive));
+    }
+
+    public void checkingUserInfoAfterEdit() {
+        sleep(5000);
+        searchEditedUserInList();
+        $("img[src^='/assets/img/defaultUserpic.9fcad495b4ff095188a700daa7e75c3a.svg']").shouldNotBe();
+        $(By.cssSelector("div[class='team__src-users-components-UserGroups-__1pO']")).waitUntil(visible, 10000);
+        $(By.cssSelector("div[class='team__src-users-components-UserGroups-__1pO']")).shouldHave(text("QA Team"));
+    }
+
 
 }

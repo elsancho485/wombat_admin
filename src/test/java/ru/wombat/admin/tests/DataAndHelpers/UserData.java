@@ -32,9 +32,11 @@ public class UserData { //Данные пользователя
     }
 
     public String generateFirstname() { // Генерация имени для редактирования юзера
-        Fairy fairy = Fairy.create();
-        Person person = fairy.person();
-        firstName = person.firstName();
+        if (firstname() == null) {
+            Fairy fairy = Fairy.create();
+            Person person = fairy.person();
+            firstName = person.firstName();
+        }
         return firstName;
     }
 
@@ -47,10 +49,12 @@ public class UserData { //Данные пользователя
         return lastName;
     }
 
-    public String generateLastname() { // Генерация фамилии для редактирования юзера
-        Fairy fairy = Fairy.create();
-        Person person = fairy.person();
-        lastName = person.lastName();
+    public String generateLastname() {// Генерация фамилии для редактирования юзера
+        if (lastname() == null) {
+            Fairy fairy = Fairy.create();
+            Person person = fairy.person();
+            lastName = person.lastName();
+        }
         return lastName;
     }
 
@@ -143,12 +147,11 @@ public class UserData { //Данные пользователя
 
     }
 
-    public void editFirstAndLastName() { //Редактирование имени и фамилии пользователя
+    public void fillEditUserForm() { //Редактирование имени и фамилии пользователя
         $(By.name("rrf.profile.firstName")).click();
         for (int i = 0; i < 20; i++) {
             $(By.name("rrf.profile.firstName")).sendKeys(Keys.BACK_SPACE);
         }
-
         $(By.name("rrf.profile.firstName")).setValue(generateFirstname());
         $(By.name("rrf.profile.email")).click();
         $(By.className("success__src-shared-forms-__2lg")).waitUntil(text("сохранено"), 20000);
@@ -157,6 +160,9 @@ public class UserData { //Данные пользователя
         }
         $(By.name("rrf.profile.lastName")).setValue(generateLastname());
         $(By.name("rrf.profile.email")).click();
+        $(By.className("success__src-shared-forms-__2lg")).waitUntil(text("сохранено"), 20000);
+        $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/following::div[3]")).click();
+        $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/following::input[2]")).setValue("QA Team").pressEnter();
         $(By.className("success__src-shared-forms-__2lg")).waitUntil(text("сохранено"), 20000);
         $(By.className("closeButton__src-users-components-ReEditUserForm-__20P")).click();
     }
@@ -210,10 +216,13 @@ public class UserData { //Данные пользователя
         }
     }
 
-    public void clearFieldAndTypeExistingEmail() {
-        $(By.name("rrf.profile.email")).click();
-        $(By.name("rrf.profile.email")).clear();
-        $(By.name("rrf.profile.email")).setValue("atkachenko");
-    }
+    public void fillEditUserFormWithSpace() {
+        $(By.name("rrf.profile.firstName")).click();
+        for (int i = 0; i < 20; i++) {
+            $(By.name("rrf.profile.firstName")).sendKeys(Keys.BACK_SPACE);
+        }
 
+        $(By.name("rrf.profile.firstName")).setValue(" ");
+        $(By.name("rrf.profile.email")).click();
+    }
 }
