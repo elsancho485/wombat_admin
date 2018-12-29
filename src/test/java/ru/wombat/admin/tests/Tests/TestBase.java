@@ -410,5 +410,9 @@ public class TestBase extends UserData {
         $(By.cssSelector("div[class='team__src-users-components-UserGroups-__1pO']")).shouldHave(text("QA Team"));
     }
 
+    public void checkingDatePickerDisplaying() {
+        $("div[class='react-datepicker__month-container']").shouldBe(visible);
+    }
+
 
 }

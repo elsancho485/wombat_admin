@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1545892144454" stop="1545892524561" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : wombat_admin</name>
+    <title>Default Suite : wombat_admin</title>
+    <test-cases>
+        <test-case start="1545892144618" stop="1545892146563" status="passed">
+            <name>adminCanOpenAndCloseAddUserForm</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="adminCanOpenAndCloseAddUserForm"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892146576" stop="1545892156769" status="passed">
+            <name>adminCanCloseAddFormWithFiledFields</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="adminCanCloseAddFormWithFiledFields"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892156773" stop="1545892162525" status="passed">
+            <name>errorAboutExistingEmailAddUserTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="errorAboutExistingEmailAddUserTest"/>
+                <label name="severity" value="minor"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892162534" stop="1545892166962" status="passed">
+            <name>emptyFieldsErrorDisplayingAddUserTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="emptyFieldsErrorDisplayingAddUserTest"/>
+                <label name="severity" value="minor"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892166964" stop="1545892172153" status="passed">
+            <name>displayingErrorAboutFieldsWithSpaceTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="displayingErrorAboutFieldsWithSpaceTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892172161" stop="1545892181404" status="passed">
+            <name>cleanCacheAddUserFormDuringCloseFormTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="cleanCacheAddUserFormDuringCloseFormTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892181410" stop="1545892198207" status="passed">
+            <name>cleanCacheAddUserFormDuringAddUserTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="cleanCacheAddUserFormDuringAddUserTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892198220" stop="1545892211991" status="passed">
+            <name>adminCanArchivateUserTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests"/>
+                <label name="testMethod" value="adminCanArchivateUserTest"/>
+                <label name="severity" value="critical"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892211995" stop="1545892225932" status="passed">
+            <name>adminCanAddNewUserTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="adminCanAddNewUserTest"/>
+                <label name="severity" value="critical"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892225935" stop="1545892242714" status="passed">
+            <name>checkingUserInfoAfterCreationTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="checkingUserInfoAfterCreationTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892242717" stop="1545892266873" status="passed">
+            <name>checkingUserInfoAfterEditTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.EditUserTests"/>
+                <label name="testMethod" value="checkingUserInfoAfterEditTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892266879" stop="1545892289756" status="passed">
+            <name>displayingCreatedUserInAllUsersListTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="displayingCreatedUserInAllUsersListTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892289766" stop="1545892308535" status="passed">
+            <name>exitFromArchivateUserFormTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests"/>
+                <label name="testMethod" value="exitFromArchivateUserFormTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892308539" stop="1545892315429" status="passed">
+            <name>closeRecoveryForm</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests"/>
+                <label name="testMethod" value="closeRecoveryForm"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892315434" stop="1545892336949" status="passed">
+            <name>displayingArchivateUserInArchiveUsers</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests"/>
+                <label name="testMethod" value="displayingArchivateUserInArchiveUsers"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892336957" stop="1545892349040" status="passed">
+            <name>recoveryUserTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests"/>
+                <label name="testMethod" value="recoveryUserTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892349045" stop="1545892358109" status="passed">
+            <name>adminCanCloseEditUserForm</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.EditUserTests"/>
+                <label name="testMethod" value="adminCanCloseEditUserForm"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892358112" stop="1545892377554" status="passed">
+            <name>emptyFieldsErrorEditUserTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.EditUserTests"/>
+                <label name="testMethod" value="emptyFieldsErrorEditUserTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892377568" stop="1545892387948" status="passed">
+            <name>displayingErrorWithSpace</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.EditUserTests"/>
+                <label name="testMethod" value="displayingErrorWithSpace"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892387952" stop="1545892405515" status="passed">
+            <name>adminCanEditUserDataTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.EditUserTests"/>
+                <label name="testMethod" value="adminCanEditUserDataTest"/>
+                <label name="severity" value="critical"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892405520" stop="1545892411302" status="passed">
+            <name>adminCanChangeUserDisplayingToGridAndToList</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.GridTests"/>
+                <label name="testMethod" value="adminCanChangeUserDisplayingToGridAndToList"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892411308" stop="1545892422059" status="passed">
+            <name>paginationInGridTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.GridTests"/>
+                <label name="testMethod" value="paginationInGridTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892422061" stop="1545892433646" status="passed">
+            <name>closeEditUserFormInGrid</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.GridTests"/>
+                <label name="testMethod" value="closeEditUserFormInGrid"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892433649" stop="1545892440807" status="passed">
+            <name>openAndCloseAddUserFormInGrid</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.GridTests"/>
+                <label name="testMethod" value="openAndCloseAddUserFormInGrid"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892440811" stop="1545892459283" status="passed">
+            <name>creationUserInGridTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.GridTests"/>
+                <label name="testMethod" value="creationUserInGridTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892459287" stop="1545892463608" status="passed">
+            <name>paginationTestInList</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.ListTests"/>
+                <label name="testMethod" value="paginationTestInList"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892463609" stop="1545892474971" status="passed">
+            <name>checkingRemoteEmployeeTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.ListTests"/>
+                <label name="testMethod" value="checkingRemoteEmployeeTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892474982" stop="1545892483804" status="passed">
+            <name>checkingKrasnodarEmployeeTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.ListTests"/>
+                <label name="testMethod" value="checkingKrasnodarEmployeeTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892483807" stop="1545892485719" status="passed">
+            <name>nonDisplayingAddUserButtonOnAllProfessionsUsersScreenTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.ListTests"/>
+                <label name="testMethod" value="nonDisplayingAddUserButtonOnAllProfessionsUsersScreenTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892485721" stop="1545892487798" status="passed">
+            <name>nonDisplayingAddUserButtonOnAllFilialsUsersScreenTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.ListTests"/>
+                <label name="testMethod" value="nonDisplayingAddUserButtonOnAllFilialsUsersScreenTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892487801" stop="1545892495135" status="passed">
+            <name>adminCanSearchUserByUsername</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.SearchUserTests"/>
+                <label name="testMethod" value="adminCanSearchUserByUsername"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892495141" stop="1545892505211" status="passed">
+            <name>searchUsersByGradeTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.SearchUserTests"/>
+                <label name="testMethod" value="searchUsersByGradeTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892505216" stop="1545892510288" status="passed">
+            <name>searchUsersByTeamTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.SearchUserTests"/>
+                <label name="testMethod" value="searchUsersByTeamTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892510292" stop="1545892511553" status="passed">
+            <name>exitFromUpgradeFormTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.UpgradeTests"/>
+                <label name="testMethod" value="exitFromUpgradeFormTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892511555" stop="1545892514630" status="passed">
+            <name>errorAboutNegativeSalaryTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.UpgradeTests"/>
+                <label name="testMethod" value="errorAboutNegativeSalaryTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892514633" stop="1545892516805" status="passed">
+            <name>salaryCorrectCountTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.UpgradeTests"/>
+                <label name="testMethod" value="salaryCorrectCountTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545892516809" stop="1545892524549" status="passed">
+            <name>adminCanUpgradeUserTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.UpgradeTests"/>
+                <label name="testMethod" value="adminCanUpgradeUserTest"/>
+                <label name="severity" value="normal"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="39774@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

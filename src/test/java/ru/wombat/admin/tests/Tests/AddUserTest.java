@@ -13,13 +13,13 @@ import static com.codeborne.selenide.Selenide.sleep;
 public class AddUserTest extends TestBase {
 
     @Test(priority = 1)
-    public void adminCanOpenAndCloseAddUserForm() {
+    public void adminCanOpenAndCloseAddUserFormTest() {
         goToAddUserForm();
         closeAddUserForm();
     }
 
     @Test(priority = 2)
-    public void adminCanCloseAddFormWithFiledFields() {
+    public void adminCanCloseAddFormWithFiledFieldsTest() {
         getUserNameFromList();
         goToAddUserForm();
         fillAddUserForm();
@@ -56,6 +56,16 @@ public class AddUserTest extends TestBase {
     }
 
     @Test(priority = 6)
+    public void displayingDatePickerFormInAddUserFormTest() {
+        goToAddUserForm();
+        clickOnWorksSinceField();
+        checkingDatePickerDisplaying();
+        clickOnBirthDateField();
+        checkingDatePickerDisplaying();
+        closeAddUserForm();
+    }
+
+    @Test(priority = 7)
     public void cleanCacheAddUserFormDuringCloseFormTest() {
         goToAddUserForm();
         fillAddUserForm();
@@ -65,7 +75,7 @@ public class AddUserTest extends TestBase {
         closeAddUserForm();
     }
 
-    @Test(priority = 7)
+    @Test(priority = 9)
     public void cleanCacheAddUserFormDuringAddUserTest() {
         goToAddUserForm();
         fillAddUserForm();
@@ -77,7 +87,7 @@ public class AddUserTest extends TestBase {
     }
 
     @Severity(SeverityLevel.CRITICAL)
-    @Test(priority = 9)
+    @Test(priority = 10)
     public void adminCanAddNewUserTest() {
         goToAddUserForm();
         fillAddUserForm();
@@ -85,7 +95,7 @@ public class AddUserTest extends TestBase {
         searchCreatedUserInList();
     }
 
-    @Test(priority = 10)
+    @Test(priority = 12)
     public void checkingUserInfoAfterCreationTest() {
         sleep(5000);
         goToAddUserForm();
@@ -95,7 +105,7 @@ public class AddUserTest extends TestBase {
         checkingUserInfoAfterCreate();
     }
 
-    @Test(priority = 11)
+    @Test(priority = 13)
     public void displayingCreatedUserInAllUsersListTest() {
         goToAllUsersScreen();
         goToAddUserForm();

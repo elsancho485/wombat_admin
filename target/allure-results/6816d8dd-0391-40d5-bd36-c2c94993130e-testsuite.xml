@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1546004688440" stop="1546004717776" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : wombat_admin</name>
+    <title>Default Suite : wombat_admin</title>
+    <test-cases>
+        <test-case start="1546004688570" stop="1546004717771" status="passed">
+            <name>checkingUserInfoAfterEditTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.EditUserTests"/>
+                <label name="testMethod" value="checkingUserInfoAfterEditTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="49460@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -5,13 +5,13 @@ import org.testng.annotations.Test;
 
 public class GridTests extends TestBase {
 
-    @Test(priority = 19)
-    public void adminCanChangeUserDisplayingToGridAndToList() {
+    @Test(priority = 21)
+    public void adminCanChangeUserDisplayingToGridAndToListTest() {
         changeDisplayingToGrid();
         changeDisplayingToList();
     }
 
-    @Test(priority = 20)
+    @Test(priority = 22)
     public void paginationInGridTest() {
         changeDisplayingToGrid();
         int before = checkingSizeOfGridBeforePagination();
@@ -21,23 +21,23 @@ public class GridTests extends TestBase {
         changeDisplayingToList();
     }
 
-    @Test(priority = 21)
-    public void closeEditUserFormInGrid() {
+    @Test(priority = 23)
+    public void closeEditUserFormInGridTest() {
         changeDisplayingToGrid();
         goToEditFormInGrid();
         closeEditUserForm();
         changeDisplayingToList();
     }
 
-    @Test(priority = 22)
-    public void openAndCloseAddUserFormInGrid() {
+    @Test(priority = 24)
+    public void openAndCloseAddUserFormInGridTest() {
         changeDisplayingToGrid();
         goToAddUserForm();
         closeAddUserForm();
         changeDisplayingToList();
     }
 
-    @Test(priority = 23)
+    @Test(priority = 25)
     public void creationUserInGridTest() {
         changeDisplayingToGrid();
         goToAddUserForm();

@@ -7,13 +7,13 @@ import ru.yandex.qatools.allure.model.SeverityLevel;
 
 public class UpgradeTests extends TestBase {
 
-    @Test(priority = 33)
+    @Test(priority = 34)
     public void exitFromUpgradeFormTest() {
         goToUpgradeUserForm();
         closeUpgradeForm();
     }
 
-    @Test(priority = 34)
+    @Test(priority = 35)
     public void errorAboutNegativeSalaryTest() {
         goToUpgradeUserForm();
         upgradeWithNegativeSalary();
@@ -21,7 +21,7 @@ public class UpgradeTests extends TestBase {
         closeUpgradeForm();
     }
 
-    @Test(priority = 35)
+    @Test(priority = 36)
     public void salaryCorrectCountTest() {
         goToUpgradeUserForm();
         int before = getSalaryCountField();
@@ -33,7 +33,7 @@ public class UpgradeTests extends TestBase {
     }
 
     @Severity(SeverityLevel.NORMAL)
-    @Test(priority = 36)
+    @Test(priority = 37)
     public void adminCanUpgradeUserTest() {
         int before = getGradeNumber();
         goToUpgradeUserForm();

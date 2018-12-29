@@ -5,15 +5,15 @@ import org.testng.annotations.Test;
 
 public class ListTests extends TestBase {
 
-    @Test(priority = 24)
-    public void paginationTestInList() {
+    @Test(priority = 26)
+    public void paginationTestInListTest() {
         int before = checkingSizeOfListBeforePagination();
         clickOnPaginationButtonInList();
         int after = checkingSizeOfListAfterPagination();
         Assert.assertEquals(before + 10, after);
     }
 
-    @Test(priority = 25)
+    @Test(priority = 27)
     public void checkingRemoteEmployeeTest() {
         goToRemoteEmployeeList();
         goToEditUserData();
@@ -22,21 +22,21 @@ public class ListTests extends TestBase {
         goToKrasnodarEmployeeListFromRemoteUsers();
     }
 
-    @Test(priority = 26)
+    @Test(priority = 28)
     public void checkingKrasnodarEmployeeTest() {
         goToEditUserData();
         checkingCityOfKrasnodarEmployee();
         closeEditUserForm();
     }
 
-    @Test(priority = 27)
+    @Test(priority = 29)
     public void nonDisplayingAddUserButtonOnAllProfessionsUsersScreenTest(){
         goToAllProfessionUsersScreen();
         checkingNonDisplayingAddUserButton();
         goToDeveloperUsers();
     }
 
-    @Test(priority = 28)
+    @Test(priority = 30)
     public void nonDisplayingAddUserButtonOnAllFilialsUsersScreenTest() {
         goToAllFilialsUsersList();
         checkingNonDisplayingAddUserButton();

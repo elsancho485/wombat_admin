@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1546072097352" stop="1546072215451" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : wombat_admin</name>
+    <title>Default Suite : wombat_admin</title>
+    <test-cases>
+        <test-case start="1546072097451" stop="1546072099679" status="passed">
+            <name>adminCanOpenAndCloseAddUserForm</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="adminCanOpenAndCloseAddUserForm"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="51215@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1546072099692" stop="1546072112214" status="passed">
+            <name>adminCanCloseAddFormWithFiledFields</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="adminCanCloseAddFormWithFiledFields"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="51215@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1546072112241" stop="1546072121567" status="passed">
+            <name>errorAboutExistingEmailAddUserTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="errorAboutExistingEmailAddUserTest"/>
+                <label name="severity" value="minor"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="51215@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1546072121574" stop="1546072126125" status="passed">
+            <name>emptyFieldsErrorDisplayingAddUserTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="emptyFieldsErrorDisplayingAddUserTest"/>
+                <label name="severity" value="minor"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="51215@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1546072126129" stop="1546072131154" status="passed">
+            <name>displayingErrorAboutFieldsWithSpaceTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="displayingErrorAboutFieldsWithSpaceTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="51215@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1546072131167" stop="1546072133347" status="passed">
+            <name>displayingDatePickerFormInAddUserForm</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="displayingDatePickerFormInAddUserForm"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="51215@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1546072133351" stop="1546072140827" status="passed">
+            <name>cleanCacheAddUserFormDuringCloseFormTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="cleanCacheAddUserFormDuringCloseFormTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="51215@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1546072140837" stop="1546072160734" status="passed">
+            <name>cleanCacheAddUserFormDuringAddUserTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="cleanCacheAddUserFormDuringAddUserTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="51215@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1546072160741" stop="1546072167895" status="passed">
+            <name>adminCanAddNewUserTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="adminCanAddNewUserTest"/>
+                <label name="severity" value="critical"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="51215@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1546072167900" stop="1546072191124" status="passed">
+            <name>checkingUserInfoAfterCreationTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="checkingUserInfoAfterCreationTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="51215@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1546072191128" stop="1546072215448" status="passed">
+            <name>displayingCreatedUserInAllUsersListTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wombat_admin"/>
+                <label name="testClass" value="ru.wombat.admin.tests.Tests.AddUserTest"/>
+                <label name="testMethod" value="displayingCreatedUserInAllUsersListTest"/>
+                <label name="host" value="MacBook-Aleksandr.local"/>
+                <label name="thread" value="51215@MacBook-Aleksandr.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -124,6 +124,15 @@ public class UserData { //Данные пользователя
         $(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::input[1]")).setValue("G4").pressEnter();
     }
 
+    public void clickOnWorksSinceField() {
+        $(By.name("rrf.user.worksSince")).waitUntil(visible, 5000).scrollIntoView(true);
+        $(By.name("rrf.user.worksSince")).waitUntil(visible, 5000).click();
+    }
+
+    public void clickOnBirthDateField() {
+        $(By.name("rrf.user.birthDate")).click();
+    }
+
     public void submitUserCreation() { // Завершение добавления сотрудника(Клик по кнопке "Создать и выслать инвайт")
         $(By.name("rrf.user.firstName")).pressEnter();
     }

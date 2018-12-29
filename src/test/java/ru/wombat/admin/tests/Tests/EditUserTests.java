@@ -8,13 +8,13 @@ import static com.codeborne.selenide.Selenide.sleep;
 
 public class EditUserTests extends TestBase {
 
-    @Test(priority = 16)
-    public void adminCanCloseEditUserForm() {
+    @Test(priority = 18)
+    public void adminCanCloseEditUserFormTest() {
         goToEditUserData();
         closeEditUserForm();
     }
 
-    @Test(priority = 17)
+    @Test(priority = 19)
     public void emptyFieldsErrorEditUserTest() {
         goToEditUserData();
         clearFieldsEditUserForm();
@@ -22,8 +22,8 @@ public class EditUserTests extends TestBase {
         closeEditUserForm();
     }
 
-    @Test(priority = 18)
-    public void displayingErrorWithSpace() {
+    @Test(priority = 20)
+    public void displayingErrorWithSpaceTest() {
         goToEditUserData();
         fillEditUserFormWithSpace();
         searchlError();
@@ -31,14 +31,14 @@ public class EditUserTests extends TestBase {
     }
 
     @Severity(SeverityLevel.CRITICAL)
-    @Test(priority = 19)
+    @Test(priority = 21)
     public void adminCanEditUserDataTest() {
         goToEditUserData();
         fillEditUserForm();
         searchCreatedUserInList();
     }
 
-    @Test(priority = 10)
+    @Test(priority = 11)
     public void checkingUserInfoAfterEditTest() {
         sleep(5000);
         goToEditUserData();

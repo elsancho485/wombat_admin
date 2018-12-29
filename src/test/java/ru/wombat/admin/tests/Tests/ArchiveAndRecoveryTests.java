@@ -6,15 +6,15 @@ import ru.yandex.qatools.allure.model.SeverityLevel;
 
 public class ArchiveAndRecoveryTests extends TestBase {
 
-    @Test(priority = 12)
+    @Test(priority = 14)
     public void exitFromArchivateUserFormTest() {
         searchUserNameBefore();
         exitArchivateForm();
         searchUserNameAfterExitArchiveForm();
     }
 
-    @Test(priority = 13)
-    public void closeRecoveryForm() {
+    @Test(priority = 15)
+    public void closeRecoveryFormTest() {
         goToArchivateUsersList();
         searchUserNameBefore();
         goToRecoveryForm();
@@ -31,8 +31,8 @@ public class ArchiveAndRecoveryTests extends TestBase {
         searchUserNameAfter();
     }
 
-    @Test(priority = 14)
-    public void displayingArchivateUserInArchiveUsers() {
+    @Test(priority = 16)
+    public void displayingArchivateUserInArchiveUsersTest() {
         searchUserNameBefore();
         archivateUser();
         goToArchivateUsersList();
@@ -40,7 +40,7 @@ public class ArchiveAndRecoveryTests extends TestBase {
         goToActiveUsersListFromArchive();
     }
 
-    @Test(priority = 15)
+    @Test(priority = 17)
     public void recoveryUserTest() {
         goToArchivateUsersList();
         searchUserNameBefore();
