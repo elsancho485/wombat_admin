@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.wombat.admin.tests.Tests.UpgradeTests" tests="4" skipped="4" failures="0" errors="0" timestamp="2018-12-29T13:53:06" hostname="MacBook-Aleksandr.local" time="0.06">
+<testsuite name="ru.wombat.admin.tests.Tests.UpgradeTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-12-29T14:00:41" hostname="MacBook-Aleksandr.local" time="11.947">
   <properties/>
-  <testcase name="exitFromUpgradeFormTest" classname="ru.wombat.admin.tests.Tests.UpgradeTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="errorAboutNegativeSalaryTest" classname="ru.wombat.admin.tests.Tests.UpgradeTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="salaryCorrectCountTest" classname="ru.wombat.admin.tests.Tests.UpgradeTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="adminCanUpgradeUserTest" classname="ru.wombat.admin.tests.Tests.UpgradeTests" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="exitFromUpgradeFormTest" classname="ru.wombat.admin.tests.Tests.UpgradeTests" time="1.543"/>
+  <testcase name="errorAboutNegativeSalaryTest" classname="ru.wombat.admin.tests.Tests.UpgradeTests" time="2.408"/>
+  <testcase name="salaryCorrectCountTest" classname="ru.wombat.admin.tests.Tests.UpgradeTests" time="1.772"/>
+  <testcase name="adminCanUpgradeUserTest" classname="ru.wombat.admin.tests.Tests.UpgradeTests" time="6.219"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

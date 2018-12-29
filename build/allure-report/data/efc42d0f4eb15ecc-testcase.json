@@ -1,0 +1,59 @@
+{
+  "uid" : "efc42d0f4eb15ecc",
+  "name" : "adminCanCloseAddFormWithFiledFieldsTest",
+  "title" : "Admin can close add form with filed fields test",
+  "time" : {
+    "start" : 1546091692608,
+    "stop" : 1546091705852,
+    "duration" : 13244
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "30c466691ab2109",
+    "name" : "Gradle suite : Gradle test",
+    "title" : "Gradle suite : Gradle test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Gradle suite : Gradle test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wombat.admin.tests.Tests.AddUserTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Aleksandr.local"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "Gradle test"
+  }, {
+    "name" : "testSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "adminCanCloseAddFormWithFiledFieldsTest"
+  }, {
+    "name" : "suite-title",
+    "value" : "Gradle suite : Gradle test"
+  }, {
+    "name" : "thread",
+    "value" : "52181@MacBook-Aleksandr.local.Test worker(10)"
+  } ],
+  "parameters" : [ ]
+}

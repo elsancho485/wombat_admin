@@ -1,0 +1,59 @@
+{
+  "uid" : "e60e750b4339b8f9",
+  "name" : "emptyFieldsErrorEditUserTest",
+  "title" : "Empty fields error edit user test",
+  "time" : {
+    "start" : 1546091905377,
+    "stop" : 1546091922885,
+    "duration" : 17508
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "30c466691ab2109",
+    "name" : "Gradle suite : Gradle test",
+    "title" : "Gradle suite : Gradle test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Gradle suite : Gradle test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Aleksandr.local"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "Gradle test"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wombat.admin.tests.Tests.EditUserTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "emptyFieldsErrorEditUserTest"
+  }, {
+    "name" : "testSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "suite-title",
+    "value" : "Gradle suite : Gradle test"
+  }, {
+    "name" : "thread",
+    "value" : "52181@MacBook-Aleksandr.local.Test worker(10)"
+  } ],
+  "parameters" : [ ]
+}

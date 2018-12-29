@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.wombat.admin.tests.Tests.ListTests" tests="5" skipped="5" failures="0" errors="0" timestamp="2018-12-29T13:53:06" hostname="MacBook-Aleksandr.local" time="0.03">
+<testsuite name="ru.wombat.admin.tests.Tests.ListTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-12-29T13:59:57" hostname="MacBook-Aleksandr.local" time="25.278">
   <properties/>
-  <testcase name="paginationTestInListTest" classname="ru.wombat.admin.tests.Tests.ListTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="checkingRemoteEmployeeTest" classname="ru.wombat.admin.tests.Tests.ListTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="checkingKrasnodarEmployeeTest" classname="ru.wombat.admin.tests.Tests.ListTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="nonDisplayingAddUserButtonOnAllProfessionsUsersScreenTest" classname="ru.wombat.admin.tests.Tests.ListTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="nonDisplayingAddUserButtonOnAllFilialsUsersScreenTest" classname="ru.wombat.admin.tests.Tests.ListTests" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="paginationTestInListTest" classname="ru.wombat.admin.tests.Tests.ListTests" time="4.341"/>
+  <testcase name="checkingRemoteEmployeeTest" classname="ru.wombat.admin.tests.Tests.ListTests" time="9.791"/>
+  <testcase name="checkingKrasnodarEmployeeTest" classname="ru.wombat.admin.tests.Tests.ListTests" time="7.849"/>
+  <testcase name="nonDisplayingAddUserButtonOnAllProfessionsUsersScreenTest" classname="ru.wombat.admin.tests.Tests.ListTests" time="1.52"/>
+  <testcase name="nonDisplayingAddUserButtonOnAllFilialsUsersScreenTest" classname="ru.wombat.admin.tests.Tests.ListTests" time="1.771"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

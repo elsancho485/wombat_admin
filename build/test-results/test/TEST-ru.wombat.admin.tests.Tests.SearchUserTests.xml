@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.wombat.admin.tests.Tests.SearchUserTests" tests="3" skipped="3" failures="0" errors="0" timestamp="2018-12-29T13:53:06" hostname="MacBook-Aleksandr.local" time="0.016">
+<testsuite name="ru.wombat.admin.tests.Tests.SearchUserTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-12-29T14:00:22" hostname="MacBook-Aleksandr.local" time="18.723">
   <properties/>
-  <testcase name="adminCanSearchUserByUsernameTest" classname="ru.wombat.admin.tests.Tests.SearchUserTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="searchUsersByGradeTest" classname="ru.wombat.admin.tests.Tests.SearchUserTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="searchUsersByTeamTest" classname="ru.wombat.admin.tests.Tests.SearchUserTests" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="adminCanSearchUserByUsernameTest" classname="ru.wombat.admin.tests.Tests.SearchUserTests" time="6.667"/>
+  <testcase name="searchUsersByGradeTest" classname="ru.wombat.admin.tests.Tests.SearchUserTests" time="7.721"/>
+  <testcase name="searchUsersByTeamTest" classname="ru.wombat.admin.tests.Tests.SearchUserTests" time="4.331"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

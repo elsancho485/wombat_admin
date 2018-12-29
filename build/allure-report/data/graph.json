@@ -1,0 +1,421 @@
+{
+  "testCases" : [ {
+    "uid" : "31666e41ba919459",
+    "name" : "adminCanOpenAndCloseAddUserFormTest",
+    "title" : "Admin can open and close add user form test",
+    "time" : {
+      "start" : 1546091690467,
+      "stop" : 1546091692572,
+      "duration" : 2105
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "efc42d0f4eb15ecc",
+    "name" : "adminCanCloseAddFormWithFiledFieldsTest",
+    "title" : "Admin can close add form with filed fields test",
+    "time" : {
+      "start" : 1546091692608,
+      "stop" : 1546091705852,
+      "duration" : 13244
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "12a5f09105411852",
+    "name" : "errorAboutExistingEmailAddUserTest",
+    "title" : "Error about existing email add user test",
+    "time" : {
+      "start" : 1546091705857,
+      "stop" : 1546091714748,
+      "duration" : 8891
+    },
+    "severity" : "MINOR",
+    "status" : "PASSED"
+  }, {
+    "uid" : "332cda9906a75504",
+    "name" : "emptyFieldsErrorDisplayingAddUserTest",
+    "title" : "Empty fields error displaying add user test",
+    "time" : {
+      "start" : 1546091714754,
+      "stop" : 1546091719045,
+      "duration" : 4291
+    },
+    "severity" : "MINOR",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7cb0f24cae60e917",
+    "name" : "displayingErrorAboutFieldsWithSpaceTest",
+    "title" : "Displaying error about fields with space test",
+    "time" : {
+      "start" : 1546091719047,
+      "stop" : 1546091723580,
+      "duration" : 4533
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "257ad98030a4a709",
+    "name" : "displayingDatePickerFormInAddUserFormTest",
+    "title" : "Displaying date picker form in add user form test",
+    "time" : {
+      "start" : 1546091723587,
+      "stop" : 1546091725981,
+      "duration" : 2394
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "1a90911c427f72c4",
+    "name" : "cleanCacheAddUserFormDuringCloseFormTest",
+    "title" : "Clean cache add user form during close form test",
+    "time" : {
+      "start" : 1546091725984,
+      "stop" : 1546091735952,
+      "duration" : 9968
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "4b95fa7a950b69f",
+    "name" : "adminCanArchivateUserTest",
+    "title" : "Admin can archivate user test",
+    "time" : {
+      "start" : 1546091735963,
+      "stop" : 1546091749712,
+      "duration" : 13749
+    },
+    "severity" : "CRITICAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f622b7ff8489d60e",
+    "name" : "cleanCacheAddUserFormDuringAddUserTest",
+    "title" : "Clean cache add user form during add user test",
+    "time" : {
+      "start" : 1546091749715,
+      "stop" : 1546091765297,
+      "duration" : 15582
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "3a70a89c60cd0578",
+    "name" : "adminCanAddNewUserTest",
+    "title" : "Admin can add new user test",
+    "time" : {
+      "start" : 1546091765301,
+      "stop" : 1546091772727,
+      "duration" : 7426
+    },
+    "severity" : "CRITICAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "60e7f3df1d642d86",
+    "name" : "checkingUserInfoAfterEditTest",
+    "title" : "Checking user info after edit test",
+    "time" : {
+      "start" : 1546091772732,
+      "stop" : 1546091801259,
+      "duration" : 28527
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "1cf173d9262d31f8",
+    "name" : "checkingUserInfoAfterCreationTest",
+    "title" : "Checking user info after creation test",
+    "time" : {
+      "start" : 1546091801265,
+      "stop" : 1546091824030,
+      "duration" : 22765
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7e818931a9ad5516",
+    "name" : "displayingCreatedUserInAllUsersListTest",
+    "title" : "Displaying created user in all users list test",
+    "time" : {
+      "start" : 1546091824034,
+      "stop" : 1546091839202,
+      "duration" : 15168
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "c2b196e78e7183ad",
+    "name" : "exitFromArchivateUserFormTest",
+    "title" : "Exit from archivate user form test",
+    "time" : {
+      "start" : 1546091839211,
+      "stop" : 1546091858029,
+      "duration" : 18818
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "8c5e61fca73a5753",
+    "name" : "closeRecoveryFormTest",
+    "title" : "Close recovery form test",
+    "time" : {
+      "start" : 1546091858035,
+      "stop" : 1546091865231,
+      "duration" : 7196
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "55907a1822f329a9",
+    "name" : "displayingArchivateUserInArchiveUsersTest",
+    "title" : "Displaying archivate user in archive users test",
+    "time" : {
+      "start" : 1546091865236,
+      "stop" : 1546091885061,
+      "duration" : 19825
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a873162b0a8917e8",
+    "name" : "recoveryUserTest",
+    "title" : "Recovery user test",
+    "time" : {
+      "start" : 1546091885066,
+      "stop" : 1546091896371,
+      "duration" : 11305
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "89c0611902f0be52",
+    "name" : "adminCanCloseEditUserFormTest",
+    "title" : "Admin can close edit user form test",
+    "time" : {
+      "start" : 1546091896376,
+      "stop" : 1546091905373,
+      "duration" : 8997
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e60e750b4339b8f9",
+    "name" : "emptyFieldsErrorEditUserTest",
+    "title" : "Empty fields error edit user test",
+    "time" : {
+      "start" : 1546091905377,
+      "stop" : 1546091922885,
+      "duration" : 17508
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6ac5cb2e10371a6a",
+    "name" : "displayingErrorWithSpaceTest",
+    "title" : "Displaying error with space test",
+    "time" : {
+      "start" : 1546091922888,
+      "stop" : 1546091932717,
+      "duration" : 9829
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a5d70265df667ee2",
+    "name" : "adminCanEditUserDataTest",
+    "title" : "Admin can edit user data test",
+    "time" : {
+      "start" : 1546091932721,
+      "stop" : 1546091944643,
+      "duration" : 11922
+    },
+    "severity" : "CRITICAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "3dc460d606dcaae1",
+    "name" : "adminCanChangeUserDisplayingToGridAndToListTest",
+    "title" : "Admin can change user displaying to grid and to list test",
+    "time" : {
+      "start" : 1546091944651,
+      "stop" : 1546091950388,
+      "duration" : 5737
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "88b892ae513b7b85",
+    "name" : "paginationInGridTest",
+    "title" : "Pagination in grid test",
+    "time" : {
+      "start" : 1546091950393,
+      "stop" : 1546091961218,
+      "duration" : 10825
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6d8d896ceaebf603",
+    "name" : "closeEditUserFormInGridTest",
+    "title" : "Close edit user form in grid test",
+    "time" : {
+      "start" : 1546091961221,
+      "stop" : 1546091972804,
+      "duration" : 11583
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "898ea7b000c0eb58",
+    "name" : "openAndCloseAddUserFormInGridTest",
+    "title" : "Open and close add user form in grid test",
+    "time" : {
+      "start" : 1546091972808,
+      "stop" : 1546091979854,
+      "duration" : 7046
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "280a8ae8c637170a",
+    "name" : "creationUserInGridTest",
+    "title" : "Creation user in grid test",
+    "time" : {
+      "start" : 1546091979860,
+      "stop" : 1546091997192,
+      "duration" : 17332
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e2623599b6af20b0",
+    "name" : "paginationTestInListTest",
+    "title" : "Pagination test in list test",
+    "time" : {
+      "start" : 1546091997196,
+      "stop" : 1546092001535,
+      "duration" : 4339
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "50c18d07f7392279",
+    "name" : "checkingRemoteEmployeeTest",
+    "title" : "Checking remote employee test",
+    "time" : {
+      "start" : 1546092001536,
+      "stop" : 1546092011327,
+      "duration" : 9791
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7e4a6bd7e2b27b58",
+    "name" : "checkingKrasnodarEmployeeTest",
+    "title" : "Checking krasnodar employee test",
+    "time" : {
+      "start" : 1546092011332,
+      "stop" : 1546092019178,
+      "duration" : 7846
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7186e23731338141",
+    "name" : "nonDisplayingAddUserButtonOnAllProfessionsUsersScreenTest",
+    "title" : "Non displaying add user button on all professions users screen test",
+    "time" : {
+      "start" : 1546092019181,
+      "stop" : 1546092020700,
+      "duration" : 1519
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "80d8e92e234d2a17",
+    "name" : "nonDisplayingAddUserButtonOnAllFilialsUsersScreenTest",
+    "title" : "Non displaying add user button on all filials users screen test",
+    "time" : {
+      "start" : 1546092020702,
+      "stop" : 1546092022473,
+      "duration" : 1771
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f6c6fc5eae6a281e",
+    "name" : "adminCanSearchUserByUsernameTest",
+    "title" : "Admin can search user by username test",
+    "time" : {
+      "start" : 1546092022476,
+      "stop" : 1546092029143,
+      "duration" : 6667
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "3ec242b8862fbe72",
+    "name" : "searchUsersByGradeTest",
+    "title" : "Search users by grade test",
+    "time" : {
+      "start" : 1546092029147,
+      "stop" : 1546092036866,
+      "duration" : 7719
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "1cb8a7be3602d32d",
+    "name" : "searchUsersByTeamTest",
+    "title" : "Search users by team test",
+    "time" : {
+      "start" : 1546092036870,
+      "stop" : 1546092041199,
+      "duration" : 4329
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "faa7ad7b6959e51",
+    "name" : "exitFromUpgradeFormTest",
+    "title" : "Exit from upgrade form test",
+    "time" : {
+      "start" : 1546092041203,
+      "stop" : 1546092042744,
+      "duration" : 1541
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ed96500a2d06509d",
+    "name" : "errorAboutNegativeSalaryTest",
+    "title" : "Error about negative salary test",
+    "time" : {
+      "start" : 1546092042749,
+      "stop" : 1546092045155,
+      "duration" : 2406
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "38701f34d17dfb7c",
+    "name" : "salaryCorrectCountTest",
+    "title" : "Salary correct count test",
+    "time" : {
+      "start" : 1546092045158,
+      "stop" : 1546092046928,
+      "duration" : 1770
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "cf923786088ce57a",
+    "name" : "adminCanUpgradeUserTest",
+    "title" : "Admin can upgrade user test",
+    "time" : {
+      "start" : 1546092046930,
+      "stop" : 1546092053148,
+      "duration" : 6218
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

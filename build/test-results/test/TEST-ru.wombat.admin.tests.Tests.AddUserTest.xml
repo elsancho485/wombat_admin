@@ -1,39 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.wombat.admin.tests.Tests.AddUserTest" tests="11" skipped="11" failures="0" errors="0" timestamp="2018-12-29T13:53:06" hostname="MacBook-Aleksandr.local" time="0.302">
+<testsuite name="ru.wombat.admin.tests.Tests.AddUserTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2018-12-29T13:54:50" hostname="MacBook-Aleksandr.local" time="148.993">
   <properties/>
-  <testcase name="adminCanOpenAndCloseAddUserFormTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="adminCanCloseAddFormWithFiledFieldsTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="errorAboutExistingEmailAddUserTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="emptyFieldsErrorDisplayingAddUserTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="displayingErrorAboutFieldsWithSpaceTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="displayingDatePickerFormInAddUserFormTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="cleanCacheAddUserFormDuringCloseFormTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="cleanCacheAddUserFormDuringAddUserTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="adminCanAddNewUserTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="checkingUserInfoAfterCreationTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="displayingCreatedUserInAllUsersListTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="adminCanOpenAndCloseAddUserFormTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="2.339"/>
+  <testcase name="adminCanCloseAddFormWithFiledFieldsTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="13.246"/>
+  <testcase name="errorAboutExistingEmailAddUserTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="8.894"/>
+  <testcase name="emptyFieldsErrorDisplayingAddUserTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="4.295"/>
+  <testcase name="displayingErrorAboutFieldsWithSpaceTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="4.533"/>
+  <testcase name="displayingDatePickerFormInAddUserFormTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="2.399"/>
+  <testcase name="cleanCacheAddUserFormDuringCloseFormTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="9.968"/>
+  <testcase name="cleanCacheAddUserFormDuringAddUserTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="15.584"/>
+  <testcase name="adminCanAddNewUserTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="7.428"/>
+  <testcase name="checkingUserInfoAfterCreationTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="22.77"/>
+  <testcase name="displayingCreatedUserInAllUsersListTest" classname="ru.wombat.admin.tests.Tests.AddUserTest" time="15.17"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

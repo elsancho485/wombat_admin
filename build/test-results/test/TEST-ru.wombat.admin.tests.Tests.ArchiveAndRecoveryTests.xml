@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests" tests="5" skipped="5" failures="0" errors="0" timestamp="2018-12-29T13:53:06" hostname="MacBook-Aleksandr.local" time="0.095">
+<testsuite name="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-12-29T13:55:35" hostname="MacBook-Aleksandr.local" time="160.416">
   <properties/>
-  <testcase name="adminCanArchivateUserTest" classname="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="exitFromArchivateUserFormTest" classname="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeRecoveryFormTest" classname="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="displayingArchivateUserInArchiveUsersTest" classname="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="recoveryUserTest" classname="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="adminCanArchivateUserTest" classname="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests" time="13.758"/>
+  <testcase name="exitFromArchivateUserFormTest" classname="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests" time="18.824"/>
+  <testcase name="closeRecoveryFormTest" classname="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests" time="7.199"/>
+  <testcase name="displayingArchivateUserInArchiveUsersTest" classname="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests" time="19.829"/>
+  <testcase name="recoveryUserTest" classname="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests" time="11.307"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

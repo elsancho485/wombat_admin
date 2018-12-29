@@ -87,7 +87,7 @@ public class AddUserTest extends TestBase {
     }
 
     @Severity(SeverityLevel.CRITICAL)
-    @Test(priority = 10)
+    @Test(priority = 11)
     public void adminCanAddNewUserTest() {
         goToAddUserForm();
         fillAddUserForm();

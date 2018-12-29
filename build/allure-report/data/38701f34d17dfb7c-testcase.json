@@ -1,0 +1,59 @@
+{
+  "uid" : "38701f34d17dfb7c",
+  "name" : "salaryCorrectCountTest",
+  "title" : "Salary correct count test",
+  "time" : {
+    "start" : 1546092045158,
+    "stop" : 1546092046928,
+    "duration" : 1770
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "30c466691ab2109",
+    "name" : "Gradle suite : Gradle test",
+    "title" : "Gradle suite : Gradle test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Gradle suite : Gradle test"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wombat.admin.tests.Tests.UpgradeTests"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Aleksandr.local"
+  }, {
+    "name" : "testMethod",
+    "value" : "salaryCorrectCountTest"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "Gradle test"
+  }, {
+    "name" : "testSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "suite-title",
+    "value" : "Gradle suite : Gradle test"
+  }, {
+    "name" : "thread",
+    "value" : "52181@MacBook-Aleksandr.local.Test worker(10)"
+  } ],
+  "parameters" : [ ]
+}

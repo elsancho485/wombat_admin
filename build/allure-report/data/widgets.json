@@ -1,0 +1,59 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 38,
+        "passed" : 37,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "time" : {
+        "start" : 1546091690467,
+        "stop" : 1546092053148,
+        "duration" : 362681
+      }
+    },
+    "defects" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "403793b60379002c",
+        "message" : "ElementShould: Element should have text 'ALEXA WHEELER' {By.className: name__src-users-components-UsersListItem-__1eu}\nElement: '<div class=\"name__src-users-components-UsersListItem-__1eu\">ALEXA BLACKWELL\nРазработчик</div>'",
+        "status" : "FAILED"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "uid" : "30c466691ab2109",
+        "title" : "Gradle suite : Gradle test",
+        "statistic" : {
+          "total" : 38,
+          "passed" : 37,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "Without feature",
+        "statistic" : {
+          "total" : 38,
+          "passed" : 37,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

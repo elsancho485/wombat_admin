@@ -1,0 +1,62 @@
+{
+  "uid" : "60e7f3df1d642d86",
+  "name" : "checkingUserInfoAfterEditTest",
+  "title" : "Checking user info after edit test",
+  "time" : {
+    "start" : 1546091772732,
+    "stop" : 1546091801259,
+    "duration" : 28527
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "ElementShould: Element should have text 'ALEXA WHEELER' {By.className: name__src-users-components-UsersListItem-__1eu}\nElement: '<div class=\"name__src-users-components-UsersListItem-__1eu\">ALEXA BLACKWELL\nРазработчик</div>'",
+    "stackTrace" : "Element should have text 'ALEXA WHEELER' {By.className: name__src-users-components-UsersListItem-__1eu}\nElement: '<div class=\"name__src-users-components-UsersListItem-__1eu\">ALEXA BLACKWELL\nРазработчик</div>'\nScreenshot: file:/Users/aleksandrtkacenko/Documents/GitHub/wombat_admin/build/reports/tests/1546091800457.0.png\nPage source: file:/Users/aleksandrtkacenko/Documents/GitHub/wombat_admin/build/reports/tests/1546091800457.0.html\nTimeout: 4 s.\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:69)\n\tat com.codeborne.selenide.commands.Should.should(Should.java:35)\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:29)\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:12)\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:144)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)\n\tat com.sun.proxy.$Proxy9.shouldHave(Unknown Source)\n\tat ru.wombat.admin.tests.Tests.TestBase.searchEditedUserInList(TestBase.java:115)\n\tat ru.wombat.admin.tests.Tests.TestBase.checkingUserInfoAfterEdit(TestBase.java:406)\n\tat ru.wombat.admin.tests.Tests.EditUserTests.checkingUserInfoAfterEditTest(EditUserTests.java:47)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:687)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:724)\n\tat org.testng.TestRunner.run(TestRunner.java:574)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:398)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:302)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1142)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1064)\n\tat org.testng.TestNG.runSuites(TestNG.java:994)\n\tat org.testng.TestNG.run(TestNG.java:962)\n\tat org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:129)\n\tat org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:88)\n\tat org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)\n\tat org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)\n\tat org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)\n\tat com.sun.proxy.$Proxy1.stop(Unknown Source)\n\tat org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:119)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)\n\tat org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)\n\tat org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)\n\tat org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)\n\tat org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)\n\tat org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)\n\tat java.lang.Thread.run(Thread.java:748)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "30c466691ab2109",
+    "name" : "Gradle suite : Gradle test",
+    "title" : "Gradle suite : Gradle test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Gradle suite : Gradle test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Aleksandr.local"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkingUserInfoAfterEditTest"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testGroup",
+    "value" : "Gradle test"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wombat.admin.tests.Tests.EditUserTests"
+  }, {
+    "name" : "testSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "suite-title",
+    "value" : "Gradle suite : Gradle test"
+  }, {
+    "name" : "thread",
+    "value" : "52181@MacBook-Aleksandr.local.Test worker(10)"
+  } ],
+  "parameters" : [ ]
+}

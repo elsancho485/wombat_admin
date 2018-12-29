@@ -38,7 +38,7 @@ public class EditUserTests extends TestBase {
         searchCreatedUserInList();
     }
 
-    @Test(priority = 11)
+    @Test(priority = 10)
     public void checkingUserInfoAfterEditTest() {
         sleep(5000);
         goToEditUserData();
