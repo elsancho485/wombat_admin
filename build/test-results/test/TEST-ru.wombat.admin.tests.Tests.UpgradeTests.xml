@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.wombat.admin.tests.Tests.UpgradeTests" tests="4" skipped="4" failures="0" errors="0" timestamp="2018-12-29T13:53:06" hostname="MacBook-Aleksandr.local" time="0.06">
+  <properties/>
+  <testcase name="exitFromUpgradeFormTest" classname="ru.wombat.admin.tests.Tests.UpgradeTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="errorAboutNegativeSalaryTest" classname="ru.wombat.admin.tests.Tests.UpgradeTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="salaryCorrectCountTest" classname="ru.wombat.admin.tests.Tests.UpgradeTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="adminCanUpgradeUserTest" classname="ru.wombat.admin.tests.Tests.UpgradeTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

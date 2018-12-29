@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests" tests="5" skipped="5" failures="0" errors="0" timestamp="2018-12-29T13:53:06" hostname="MacBook-Aleksandr.local" time="0.095">
+  <properties/>
+  <testcase name="adminCanArchivateUserTest" classname="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="exitFromArchivateUserFormTest" classname="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="closeRecoveryFormTest" classname="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="displayingArchivateUserInArchiveUsersTest" classname="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="recoveryUserTest" classname="ru.wombat.admin.tests.Tests.ArchiveAndRecoveryTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

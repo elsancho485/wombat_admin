@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.wombat.admin.tests.Tests.EditUserTests" tests="5" skipped="5" failures="0" errors="0" timestamp="2018-12-29T13:53:06" hostname="MacBook-Aleksandr.local" time="0.215">
+  <properties/>
+  <testcase name="checkingUserInfoAfterEditTest" classname="ru.wombat.admin.tests.Tests.EditUserTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="adminCanCloseEditUserFormTest" classname="ru.wombat.admin.tests.Tests.EditUserTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="emptyFieldsErrorEditUserTest" classname="ru.wombat.admin.tests.Tests.EditUserTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="displayingErrorWithSpaceTest" classname="ru.wombat.admin.tests.Tests.EditUserTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="adminCanEditUserDataTest" classname="ru.wombat.admin.tests.Tests.EditUserTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

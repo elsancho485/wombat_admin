@@ -3,7 +3,6 @@ package ru.wombat.admin.tests.Tests;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selectors;
-import com.sun.jdi.IntegerValue;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.BeforeSuite;
